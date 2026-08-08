@@ -25,7 +25,7 @@
 - GitHub Pages 基金研究頁：`https://garfiwang.github.io/fund-management-sun-qingying/fund_research.html`
 
 ## 🕐 最後更新
-- 時間：2026-08-08 23:54
+- 時間：2026-08-08 23:57
 - 更新者：Antigravity @ M3-Air---garfiwang-3
-- 最新進度：已成功將「柏瑞多重資產特別收益基金-B類型 研究報告與 30天淨值監控」移至獨立頁面 `fund_research.html`，主儀錶板維持乾淨清爽並提供雙向無縫連結導覽。
+- 最新進度：已成功將「柏瑞多重資產特別收益基金-B類型 研究報告與 30天淨值監控」移至獨立頁面 `fund_research.html`，並修復了主儀錶板 `index.html` 帳戶1持股細節、帳戶2卡片與交易紀錄顯示。
 - Git push：✅ 已推 (`main` & `gh-pages`)
