@@ -23,8 +23,10 @@
 ├── AGENTS.md
 ├── handoff.md
 ├── index.html
+├── fund_research.html
 ├── styles.css
 ├── app.js
+├── fund_research.js
 ├── accounts/
 │   └── sun_portfolio.md
 └── data/
