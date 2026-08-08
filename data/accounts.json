@@ -7,6 +7,7 @@
       "name": "帳戶1",
       "initial_amount": 2000000,
       "current_balance": 2000778,
+      "total_deductions": 12550,
       "start_date": "2026-05-22",
       "status": "active",
       "holdings": [
@@ -25,6 +26,7 @@
       "name": "帳戶2",
       "initial_amount": 1000000,
       "current_balance": 1000000,
+      "total_deductions": 0,
       "start_date": "2026-06-30",
       "status": "active",
       "holdings": []
@@ -34,6 +36,7 @@
       "name": "帳戶3",
       "initial_amount": null,
       "current_balance": null,
+      "total_deductions": 0,
       "start_date": null,
       "status": "pending_setup",
       "holdings": []
@@ -41,5 +44,6 @@
   ],
   "total_initial_amount": 3000000,
   "total_current_valuation": 3000778,
-  "last_updated": "2026-08-08T23:20:17+08:00"
+  "total_deductions": 12550,
+  "last_updated": "2026-08-08T23:24:25+08:00"
 }

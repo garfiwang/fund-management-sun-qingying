@@ -13,6 +13,96 @@
       "price": 6.7806,
       "exchange_rate": 1,
       "total_amount": 2000778
+    },
+    {
+      "id": "FEE-2318-20260723-01",
+      "date": "2026-07-23",
+      "account_id": "2318",
+      "type": "扣款",
+      "item": "保單管理費/保單管理費之行政管理費",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 100
+    },
+    {
+      "id": "FEE-2318-20260723-02",
+      "date": "2026-07-23",
+      "account_id": "2318",
+      "type": "扣款",
+      "item": "標的維護費/保單管理費/保單管理費之帳戶管理費",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 3974
+    },
+    {
+      "id": "FEE-2318-20260723-03",
+      "date": "2026-07-23",
+      "account_id": "2318",
+      "type": "扣款",
+      "item": "保險成本",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 95
+    },
+    {
+      "id": "FEE-2318-20260702-01",
+      "date": "2026-07-02",
+      "account_id": "2318",
+      "type": "扣款",
+      "item": "保單管理費/保單管理費之行政管理費",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 100
+    },
+    {
+      "id": "FEE-2318-20260702-02",
+      "date": "2026-07-02",
+      "account_id": "2318",
+      "type": "扣款",
+      "item": "標的維護費/保單管理費/保單管理費之帳戶管理費",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 3991
+    },
+    {
+      "id": "FEE-2318-20260702-03",
+      "date": "2026-07-02",
+      "account_id": "2318",
+      "type": "扣款",
+      "item": "保險成本",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 95
+    },
+    {
+      "id": "FEE-2318-20260702-04",
+      "date": "2026-07-02",
+      "account_id": "2318",
+      "type": "扣款",
+      "item": "保單管理費/保單管理費之行政管理費",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 100
+    },
+    {
+      "id": "FEE-2318-20260702-05",
+      "date": "2026-07-02",
+      "account_id": "2318",
+      "type": "扣款",
+      "item": "標的維護費/保單管理費/保單管理費之帳戶管理費",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 4000
+    },
+    {
+      "id": "FEE-2318-20260702-06",
+      "date": "2026-07-02",
+      "account_id": "2318",
+      "type": "扣款",
+      "item": "保險成本",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 95
     }
   ]
 }
