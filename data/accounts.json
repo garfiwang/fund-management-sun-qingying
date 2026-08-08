@@ -6,9 +6,19 @@
       "account_id": "2318",
       "name": "帳戶1",
       "initial_amount": 2000000,
-      "current_balance": 2000000,
+      "current_balance": 2000778,
       "start_date": "2026-05-22",
-      "status": "active"
+      "status": "active",
+      "holdings": [
+        {
+          "target_name": "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
+          "units": 295073.887267,
+          "avg_price": 6.7806,
+          "latest_price": 6.7806,
+          "cost_amount": 2000778,
+          "current_valuation": 2000778
+        }
+      ]
     },
     {
       "account_id": "9318",
@@ -16,7 +26,8 @@
       "initial_amount": 1000000,
       "current_balance": 1000000,
       "start_date": "2026-06-30",
-      "status": "active"
+      "status": "active",
+      "holdings": []
     },
     {
       "account_id": "TBD",
@@ -24,9 +35,11 @@
       "initial_amount": null,
       "current_balance": null,
       "start_date": null,
-      "status": "pending_setup"
+      "status": "pending_setup",
+      "holdings": []
     }
   ],
   "total_initial_amount": 3000000,
-  "last_updated": "2026-08-08T23:17:00+08:00"
+  "total_current_valuation": 3000778,
+  "last_updated": "2026-08-08T23:20:17+08:00"
 }

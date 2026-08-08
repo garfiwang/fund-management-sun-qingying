@@ -1,4 +1,18 @@
 {
   "client": "sun",
-  "transactions": []
+  "transactions": [
+    {
+      "id": "TX-2318-20260629-01",
+      "date": "2026-06-29",
+      "account_id": "2318",
+      "target_name": "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
+      "full_target_name": "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "currency": "TWD",
+      "type": "申購",
+      "units": 295073.887267,
+      "price": 6.7806,
+      "exchange_rate": 1,
+      "total_amount": 2000778
+    }
+  ]
 }
