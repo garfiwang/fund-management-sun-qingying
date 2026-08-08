@@ -15,17 +15,18 @@
 ## 資料夾結構
 ```
 [Project] 孫晴盈-基金管理/
+├── .gitignore
 ├── AGENTS.md
 └── handoff.md
 ```
 
-## 同步層級（本專案初始化至第 1 層級）
+## 同步層級（本專案初始化至第 3 層級）
 
 | 層級 | 平台 | 位置 | 讀取時機 |
 |------|------|------|---------|
 | L1 | 本地（GDrive） | `AGENTS.md`＋`handoff.md` | 每個 session |
-| L2 | GitHub | <未啟用｜gh CLI 未登入> | 指定時 |
-| L3 | Obsidian | <未啟用｜無 Obsidian MCP> | 有需要時 |
+| L2 | GitHub | garfiwang/fund-management-sun-qingying | 指定時 |
+| L3 | Obsidian | `[Project] 孫晴盈-基金管理/專案工作流程.md` | 有需要時 |
 
 ## 工作約定
 - 任何 Agent、任何電腦：**開工先讀 `handoff.md`，收工必更新 `handoff.md`**
