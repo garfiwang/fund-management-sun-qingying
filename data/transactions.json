@@ -103,6 +103,20 @@
       "summary": "保險相關費用",
       "currency": "TWD",
       "amount": 95
+    },
+    {
+      "id": "DIV-2318-20260630-01",
+      "record_date": "2026-06-30",
+      "payout_date": "2026-07-15",
+      "account_id": "2318",
+      "target_name": "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
+      "type": "配息",
+      "payment_method": "銀行轉帳",
+      "target_units": 293837.860957,
+      "dividend_per_unit": 0.05,
+      "currency": "TWD",
+      "exchange_rate": 1,
+      "total_amount": 14692
     }
   ]
 }
