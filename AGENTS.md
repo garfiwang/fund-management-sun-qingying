@@ -12,8 +12,9 @@
 - [x] 階段一：專案需求確認與基礎建置 (L1, L2, L3 已建立)
 - [/] 階段二：基金管理系統功能開發與客戶資料記錄
   - [x] 客戶 sun 帳戶基礎資料庫與追蹤日誌建置
+  - [x] 記錄並計算帳戶 1 (2318) & 帳戶 2 (9318) 操作明細與即時績效
+  - [x] 雙帳戶綜合理財儀錶板與 GitHub Pages 發布網頁建置 (含基金 30天淨值與持股研究)
   - [ ] 補充帳戶 3 詳細資料
-  - [ ] 記錄並計算帳戶操作明細與即時績效
 
 ## 資料夾結構
 ```
@@ -21,10 +22,14 @@
 ├── .gitignore
 ├── AGENTS.md
 ├── handoff.md
+├── index.html
+├── styles.css
+├── app.js
 ├── accounts/
 │   └── sun_portfolio.md
 └── data/
     ├── accounts.json
+    ├── fund_details.json
     └── transactions.json
 ```
 
