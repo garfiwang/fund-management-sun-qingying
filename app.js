@@ -1,5 +1,5 @@
 /**
- * Sun Qingying Fund Management - Account 1 & Account 2 Dashboard Logic
+ * Sun Qingying Fund Management - Account 1 & Account 2 Dashboard Logic (Light Minimalist Theme)
  */
 
 // Embed fallback data matching JSON files exactly to ensure offline / file:// preview works flawlessly
@@ -132,8 +132,6 @@ function renderSummary() {
   document.getElementById('totalDividends').textContent = fmt(data.total_dividends);
   document.getElementById('totalDeductions').textContent = fmt(data.total_deductions);
   
-  // Calculate Net Profit/Loss (Valuation - Initial + Dividends - Fees)
-  // Or Capital Gain/Loss: $1,968,336 - $2,000,000 = -$31,664. With Dividends +14,692 => -$16,972
   const netIncome = (data.total_current_valuation + data.total_dividends) - data.total_initial_amount;
   const netIncomePct = ((netIncome / data.total_initial_amount) * 100).toFixed(2);
 
@@ -159,7 +157,7 @@ function renderSummary() {
   if (acc2) document.getElementById('acc2Valuation').textContent = '$' + acc2.current_balance.toLocaleString();
 }
 
-// Render Chart.js Visualizations
+// Render Chart.js Visualizations (Light Theme Palette)
 function renderCharts() {
   const data = appState.accountsData;
   if (!data) return;
@@ -177,26 +175,20 @@ function renderCharts() {
         {
           label: '投入本金 (TWD)',
           data: [acc1 ? acc1.initial_amount : 2000000, acc2 ? acc2.initial_amount : 1000000],
-          backgroundColor: 'rgba(99, 102, 241, 0.7)',
-          borderColor: '#6366f1',
-          borderWidth: 1.5,
-          borderRadius: 6
+          backgroundColor: '#3b82f6',
+          borderRadius: 4
         },
         {
           label: '目前估值 (TWD)',
           data: [acc1 ? acc1.current_balance : 1968336, acc2 ? acc2.current_balance : 1000000],
-          backgroundColor: 'rgba(245, 158, 11, 0.85)',
-          borderColor: '#f59e0b',
-          borderWidth: 1.5,
-          borderRadius: 6
+          backgroundColor: '#d97706',
+          borderRadius: 4
         },
         {
           label: '累積配息 (TWD)',
           data: [acc1 ? acc1.total_dividends : 14692, acc2 ? acc2.total_dividends : 0],
-          backgroundColor: 'rgba(16, 185, 129, 0.85)',
-          borderColor: '#10b981',
-          borderWidth: 1.5,
-          borderRadius: 6
+          backgroundColor: '#059669',
+          borderRadius: 4
         }
       ]
     },
@@ -205,7 +197,7 @@ function renderCharts() {
       maintainAspectRatio: false,
       plugins: {
         legend: {
-          labels: { color: '#94a3b8', font: { family: 'Plus Jakarta Sans', size: 12 } }
+          labels: { color: '#334155', font: { family: 'Plus Jakarta Sans', size: 12, weight: '600' } }
         },
         tooltip: {
           callbacks: {
@@ -214,13 +206,13 @@ function renderCharts() {
         }
       },
       scales: {
-        x: { ticks: { color: '#cbd5e1' }, grid: { display: false } },
+        x: { ticks: { color: '#475569', font: { weight: '600' } }, grid: { display: false } },
         y: {
           ticks: {
-            color: '#94a3b8',
+            color: '#475569',
             callback: (val) => '$' + (val / 10000) + '萬'
           },
-          grid: { color: 'rgba(255, 255, 255, 0.05)' }
+          grid: { color: '#f1f5f9' }
         }
       }
     }
@@ -235,12 +227,11 @@ function renderCharts() {
       datasets: [{
         data: [acc1 ? acc1.current_balance : 1968336, acc2 ? acc2.current_balance : 1000000],
         backgroundColor: [
-          'rgba(245, 158, 11, 0.85)',
-          'rgba(6, 182, 212, 0.85)'
+          '#d97706',
+          '#0284c7'
         ],
-        borderColor: '#0b0f19',
-        borderWidth: 3,
-        hoverOffset: 8
+        borderColor: '#ffffff',
+        borderWidth: 2
       }]
     },
     options: {
@@ -249,7 +240,7 @@ function renderCharts() {
       plugins: {
         legend: {
           position: 'bottom',
-          labels: { color: '#cbd5e1', padding: 16, font: { family: 'Plus Jakarta Sans', size: 11 } }
+          labels: { color: '#334155', padding: 16, font: { family: 'Plus Jakarta Sans', size: 11, weight: '600' } }
         },
         tooltip: {
           callbacks: {
@@ -311,10 +302,10 @@ function renderTransactionsTable() {
       <td>${item.date || item.record_date || '-'}</td>
       <td><span class="account-tag" style="font-size:0.7rem; padding: 2px 8px;">帳戶 ${item.account_id === '2318' ? '1 (2318)' : '2 (' + item.account_id + ')'}</span></td>
       <td><span class="badge-tx ${badgeClass}">${item.type}</span></td>
-      <td style="font-weight: 500;">${itemName}</td>
+      <td style="font-weight: 700;">${itemName}</td>
       <td style="color: var(--text-secondary);">${unitsStr}</td>
       <td style="color: var(--text-secondary);">${priceStr}</td>
-      <td style="font-weight: 700; color: ${item.type === '配息' ? 'var(--accent-emerald)' : (item.type === '扣款' ? 'var(--accent-rose)' : 'var(--text-primary)')};">
+      <td style="font-weight: 800; color: ${item.type === '配息' ? 'var(--color-emerald)' : (item.type === '扣款' ? 'var(--color-rose)' : 'var(--text-primary)')};">
         ${item.type === '配息' ? '+' : (item.type === '扣款' ? '-' : '')}$${amountVal.toLocaleString()}
       </td>
     `;
