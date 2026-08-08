@@ -540,3 +540,26 @@ body {
   transition: width 0.3s ease;
 }
 
+/* Navigation Link Buttons */
+.nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.nav-btn:hover {
+  background: var(--color-indigo);
+  color: #ffffff;
+  border-color: var(--color-indigo);
+}
+
+
