@@ -7,10 +7,13 @@
 2. **基金配息**：已記錄帳戶 1 (2318) 配息基準日 2026/06/30 之現金配息 **NT$ 14,692**（單位數 293,837.860957 * $0.05/單位，銀行轉帳）。
 3. **扣款費用記錄**：已成功記錄帳戶 1 (2318) 的 9 筆保單/帳戶扣款費用明細（2026/07/02 與 2026/07/23），扣款總金額小計 **NT$ 12,550**。
 4. **最新估值紀錄**：已更新帳戶 1 (2318) 於 2026/08/08 的最新保單帳戶價值總額為 **NT$ 1,968,336**（基本保額 $2,800,000，身故保險金 $2,785,308）。
+5. **雙帳戶總儀錶板 Web App**：已開發高質感黑金/琉璃風儀錶板 (`index.html`, `styles.css`, `app.js`)，整合帳戶 1 與帳戶 2 的估值、累積配息、費用與可搜尋交易紀錄。
+6. **GitHub Pages 發布**：已成功推動 `main` 與 `gh-pages` 分支至 GitHub，發布網址為 `https://garfiwang.github.io/fund-management-sun-qingying/`。
 
 ## 🚦 目前狀態
 - 客戶 sun 的 `accounts/sun_portfolio.md` 已補齊保單詳細資訊、估值、配息與扣款費用
-- `data/accounts.json` 已更新最新估值 (2026/08/08 $1,968,336) 與最新基金淨值推估 ($6.6707)
+- `data/accounts.json` 與 `data/transactions.json` 最新資料已與儀錶板完全連動
+- 儀錶板已上線並提供視覺化 Chart.js 圖表與明細搜尋過濾功能
 
 ## ➡️ 下一步
 1. 繼續接收使用者輸入的後續操作記錄（帳戶 1 或 帳戶 2）
@@ -18,8 +21,9 @@
 
 ## ⚠️ 注意事項
 - 本專案位於 Google 雲端硬碟，請確保 Google 雲端硬碟桌面版的同步圖示已打勾。
+- GitHub Pages 部署網址：`https://garfiwang.github.io/fund-management-sun-qingying/`
 
 ## 🕐 最後更新
-- 時間：2026-08-08 23:31
+- 時間：2026-08-08 23:33
 - 更新者：Antigravity @ M3-Air---garfiwang-3
-- Git push：✅ 已推
+- Git push：✅ 已推 (`main` & `gh-pages`)
