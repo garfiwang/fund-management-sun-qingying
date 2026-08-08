@@ -8,12 +8,12 @@
 3. **扣款費用記錄**：已成功記錄帳戶 1 (2318) 的 9 筆保單/帳戶扣款費用明細（2026/07/02 與 2026/07/23），扣款總金額小計 **NT$ 12,550**。
 4. **最新估值紀錄**：已更新帳戶 1 (2318) 於 2026/08/08 的最新保單帳戶價值總額為 **NT$ 1,968,336**（基本保額 $2,800,000，身故保險金 $2,785,308）。
 5. **雙帳戶總儀錶板 Web App**：已將主題更新為**淺色簡約風格 (Light Minimalist Theme)**，去除冗餘動畫與玻璃特效，以高對比顏色（綠/紅/金/藍）與粗體字強調重點數據與指標。
-6. **GitHub Pages 發布**：已更新推動 `main` 與 `gh-pages` 分支至 GitHub，發布網址為 `https://garfiwang.github.io/fund-management-sun-qingying/`。
+6. **GitHub Pages 正式啟用並上線**：已將 GitHub 儲存庫設定切換為 `Public` 並成功啟動 GitHub Pages。發布網址為 `https://garfiwang.github.io/fund-management-sun-qingying/`。
 
 ## 🚦 目前狀態
 - 客戶 sun 的 `accounts/sun_portfolio.md` 已補齊保單詳細資訊、估值、配息與扣款費用
 - `data/accounts.json` 與 `data/transactions.json` 最新資料已與儀錶板完全連動
-- 儀錶板已更新為淺色簡約風格，於 GitHub Pages 上線運行
+- 儲存庫已切換為 Public，GitHub Pages 已部署並可公開訪問
 
 ## ➡️ 下一步
 1. 繼續接收使用者輸入的後續操作記錄（帳戶 1 或 帳戶 2）
@@ -24,6 +24,6 @@
 - GitHub Pages 部署網址：`https://garfiwang.github.io/fund-management-sun-qingying/`
 
 ## 🕐 最後更新
-- 時間：2026-08-08 23:38
+- 時間：2026-08-08 23:42
 - 更新者：Antigravity @ M3-Air---garfiwang-3
 - Git push：✅ 已推 (`main` & `gh-pages`)
