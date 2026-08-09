@@ -8,11 +8,11 @@
 3. **扣款費用記錄**：已成功記錄帳戶 1 (2318) 的 9 筆保單/帳戶扣款費用明細（2026/07/02 與 2026/07/23），扣款總金額小計 **NT$ 12,550**。
 4. **最新估值紀錄**：已更新帳戶 1 (2318) 於 2026/08/08 的最新保單帳戶價值總額為 **NT$ 1,968,336**（基本保額 $2,800,000，身故保險金 $2,785,308）。
 5. **雙帳戶總儀錶板 Web App**：已將主題更新為**淺色簡約風格 (Light Minimalist Theme)**，去除冗餘動畫與玻璃特效，以高對比顏色（綠/紅/金/藍）與粗體字強調重點數據與指標。
-6. **全 7 檔精選基金標的獨立研究頁面全數發布**：新增「野村全球金融收益基金」(`nomura_financial_income_research.html`)、「野村環球時機多重資產基金」(`nomura_multi_opp_research.html`)、「東方匯理實質收息多重資產基金」(`amundi_real_income_research.html`)與「元大全球不動產證券化基金」(`yuanta_reits_research.html`)獨立研究頁面，全網站已有 7 檔基金獨立研究頁面並完成 GitHub Pages 自動化發布！
+6. **全 7 檔精選基金標的獨立研究頁面與研究報告全數發布**：已建立「野村全球金融收益基金」、「野村環球時機多重資產基金」、「東方匯理實質收息多重資產基金」與「元大全球不動產證券化基金」獨立研究頁面，且兩份完整 Markdown 研究報告檔已同步儲存於專案目錄及 GitHub！
 
 ## 🚦 目前狀態
 - 客戶 sun 的 `accounts/sun_portfolio.md` 已補齊保單詳細資訊、估值、配息與扣款費用
-- 所有 7 檔基金 JSON 資料集 (`fund_details.json`, `allianz_details.json`, `ctbc_details.json`, `amundi_details.json`, `yuanta_reits_details.json`, `nomura_multi_details.json`, `nomura_fin_details.json`) 已與網頁全數連動
+- 所有 7 檔基金 JSON 資料集已與網頁全數連動
 - 儲存庫為 Public，GitHub Pages 已部署 8 個獨立網頁頁面並可公開訪問
 
 ## ➡️ 下一步
@@ -29,9 +29,11 @@
 - 東方匯理實質收息研究頁：`https://garfiwang.github.io/fund-management-sun-qingying/amundi_real_income_research.html`
 - 元大全球不動產研究頁：`https://garfiwang.github.io/fund-management-sun-qingying/yuanta_reits_research.html`
 - 中信科技趨勢研究頁：`https://garfiwang.github.io/fund-management-sun-qingying/ctbc_tech_research.html`
+- 📄 四檔新基金研究報告線上查看：`https://github.com/garfiwang/fund-management-sun-qingying/blob/main/四檔新基金投資研究報告.md`
+- 📄 三大基金研究報告線上查看：`https://github.com/garfiwang/fund-management-sun-qingying/blob/main/三大基金投資研究報告.md`
 
 ## 🕐 最後更新
-- 時間：2026-08-09 09:09
+- 時間：2026-08-09 09:20
 - 更新者：Antigravity @ M3-Air---garfiwang-3
-- 最新進度：已成功完成第二批 4 檔基金之深度財經數據檢索、建置獨立研究儀錶板並發布至 GitHub Pages，總計已上線 7 檔基金。
+- 最新進度：已成功將研究報告 Markdown 檔案同步至專案資料夾與 GitHub，方便使用者直接下載與閱覽。
 - Git push：✅ 已推 (`main` & `gh-pages`)
