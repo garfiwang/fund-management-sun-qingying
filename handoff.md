@@ -33,7 +33,7 @@
 - 📄 三大基金研究報告線上查看：`https://github.com/garfiwang/fund-management-sun-qingying/blob/main/三大基金投資研究報告.md`
 
 ## 🕐 最後更新
-- 時間：2026-08-09 09:20
+- 時間：2026-08-11 10:07
 - 更新者：Antigravity @ M3-Air---garfiwang-3
-- 最新進度：已成功將研究報告 Markdown 檔案同步至專案資料夾與 GitHub，方便使用者直接下載與閱覽。
+- 最新進度：已成功更新全 7 檔精選基金至 2026/08/10 最新淨值數據，並同步更新 JSON 資料集、儀錶板與研究報告，GitHub Pages 已發布。
 - Git push：✅ 已推 (`main` & `gh-pages`)
