@@ -1,0 +1,21 @@
+{
+  "fund_code": "JPMORGAN_CN_FUND",
+  "fund_name": "摩根中國基金 (JPMorgan China Fund / JPMorgan Funds - China Fund)",
+  "isin": "LU0210526637",
+  "currency": "USD",
+  "risk_level": "RR5",
+  "dividend_frequency": "累積型/不配息",
+  "latest_nav": 68.15,
+  "latest_nav_date": "2026-08-10",
+  "top_property_soe_holdings": [
+    { "rank": 1, "name": "華潤置地 (China Resources Land 1109.HK)", "type": "國有地產開發商", "weight": "3.20%" },
+    { "rank": 2, "name": "中國海外發展 (China Overseas Land 0688.HK)", "type": "中央國企地產旗艦", "weight": "2.30%" }
+  ],
+  "top_other_holdings": [
+    { "rank": 1, "name": "騰訊控股 (Tencent Holdings 0700.HK)", "weight": "9.80%" },
+    { "rank": 2, "name": "美團 (Meituan 3690.HK)", "weight": "5.40%" },
+    { "rank": 3, "name": "網易 (NetEase 9999.HK)", "weight": "4.10%" },
+    { "rank": 4, "name": "中國平安保險 (Ping An Insurance 2318.HK)", "weight": "3.60%" }
+  ],
+  "china_soes_property_strategy": "採用大盤高品質成長策略，房地產領域精選防禦屬性與現金流優異之國資背景地產龍頭（華潤置地與中國海外發展）。"
+}
