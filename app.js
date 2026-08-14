@@ -12,12 +12,12 @@ const fallbackData = {
         account_id: "2318",
         name: "帳戶1",
         initial_amount: 2000000,
-        current_balance: 1968336,
+        current_balance: 1988355,
         total_deductions: 12550,
         total_dividends: 14692,
-        valuation_date: "2026-08-08",
+        valuation_date: "2026-08-13",
         basic_sum_insured: 2800000,
-        life_death_benefit: 2785308,
+        life_death_benefit: 2805327,
         start_date: "2026-05-22",
         status: "active",
         holdings: [
@@ -25,9 +25,9 @@ const fallbackData = {
             target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
             units: 295073.887267,
             avg_price: 6.7806,
-            latest_price: 6.6707,
+            latest_price: 6.7385,
             cost_amount: 2000778,
-            current_valuation: 1968336
+            current_valuation: 1988355
           }
         ]
       },
@@ -44,10 +44,10 @@ const fallbackData = {
       }
     ],
     total_initial_amount: 3000000,
-    total_current_valuation: 2968336,
+    total_current_valuation: 2988355,
     total_deductions: 12550,
     total_dividends: 14692,
-    last_updated: "2026-08-08T23:30:30+08:00"
+    last_updated: "2026-08-13T18:00:00+08:00"
   },
   transactions: [
     {
@@ -87,6 +87,10 @@ const fallbackData = {
     fund_name: "柏瑞多重資產特別收益證券投資信託基金 - B類型 - (配現金)",
     subscription_price: 6.7806,
     nav_30_days: [
+      { date: "2026/08/13", nav: 6.7385, change: 0.0065 },
+      { date: "2026/08/12", nav: 6.7320, change: 0.0040 },
+      { date: "2026/08/11", nav: 6.7280, change: 0.0065 },
+      { date: "2026/08/10", nav: 6.7215, change: 0.0100 },
       { date: "2026/08/07", nav: 6.7115, change: -0.0015 },
       { date: "2026/08/06", nav: 6.7130, change: 0.0002 },
       { date: "2026/08/05", nav: 6.7128, change: 0.0046 },
@@ -113,7 +117,7 @@ const fallbackData = {
     yearly_nav_summary: [
       { year: "2024", nav_range: "6.75 - 7.15 元", dividend_note: "月配 NT$ 0.05 / 單位", description: "全球債市受降息預期影響，淨值於 6.75~7.15 區間震盪" },
       { year: "2025", nav_range: "6.65 - 6.95 元", dividend_note: "月配 NT$ 0.05 / 單位", description: "利息持續穩定發放，除息後淨值保持相對穩定" },
-      { year: "2026 (至今)", nav_range: "6.67 - 6.79 元", dividend_note: "月配 NT$ 0.05 / 單位", description: "截至 8 月最新約 6.7128 元，申購價為 6.7806 元 (2026/06/29)" }
+      { year: "2026 (至今)", nav_range: "6.67 - 6.79 元", dividend_note: "月配 NT$ 0.05 / 單位", description: "截至 8 月最新報價 6.7385 元 (2026/08/13)，申購價為 6.7806 元 (2026/06/29)" }
     ],
     top_holdings: [
       { rank: 1, name: "柏瑞環球重點股票基金 Y (PineBridge Global Focus Equity Y)", type: "股票型基金", country: "愛爾蘭", weight: "9.23%" },

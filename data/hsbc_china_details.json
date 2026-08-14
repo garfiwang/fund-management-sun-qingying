@@ -5,17 +5,43 @@
   "currency": "USD",
   "risk_level": "RR5",
   "dividend_frequency": "累積型/不配息",
-  "latest_nav": 52.85,
-  "latest_nav_date": "2026-08-10",
+  "latest_nav": 53.6,
+  "latest_nav_date": "2026-08-13",
   "top_property_soe_holdings": [
-    { "rank": 1, "name": "華潤置地 (China Resources Land 1109.HK)", "type": "國有地產開發商", "weight": "3.80%" },
-    { "rank": 2, "name": "中國海外發展 (China Overseas Land 0688.HK)", "type": "中央國企地產旗艦", "weight": "2.50%" }
+    {
+      "rank": 1,
+      "name": "華潤置地 (China Resources Land 1109.HK)",
+      "type": "國有地產開發商",
+      "weight": "3.80%"
+    },
+    {
+      "rank": 2,
+      "name": "中國海外發展 (China Overseas Land 0688.HK)",
+      "type": "中央國企地產旗艦",
+      "weight": "2.50%"
+    }
   ],
   "top_other_holdings": [
-    { "rank": 1, "name": "騰訊控股 (Tencent Holdings 0700.HK)", "weight": "9.20%" },
-    { "rank": 2, "name": "阿里巴巴 (Alibaba Group 9988.HK)", "weight": "7.50%" },
-    { "rank": 3, "name": "中國平安保險 (Ping An Insurance 2318.HK)", "weight": "4.10%" },
-    { "rank": 4, "name": "貴州茅台 (Kweichow Moutai 600519.SH)", "weight": "3.50%" }
+    {
+      "rank": 1,
+      "name": "騰訊控股 (Tencent Holdings 0700.HK)",
+      "weight": "9.20%"
+    },
+    {
+      "rank": 2,
+      "name": "阿里巴巴 (Alibaba Group 9988.HK)",
+      "weight": "7.50%"
+    },
+    {
+      "rank": 3,
+      "name": "中國平安保險 (Ping An Insurance 2318.HK)",
+      "weight": "4.10%"
+    },
+    {
+      "rank": 4,
+      "name": "貴州茅台 (Kweichow Moutai 600519.SH)",
+      "weight": "3.50%"
+    }
   ],
   "china_soes_property_strategy": "重點配置具備萬象城商業地產與住宅雙輪驅動之央企華潤置地，以及國務院國資委直屬之中國海外發展，避開財務風險較高之民營房企。"
 }

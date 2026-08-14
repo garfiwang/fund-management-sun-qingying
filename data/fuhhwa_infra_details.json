@@ -5,18 +5,50 @@
   "currency": "TWD",
   "risk_level": "RR4",
   "dividend_frequency": "不配息/累積型",
-  "latest_nav": 11.25,
-  "latest_nav_date": "2026-08-10",
+  "latest_nav": 11.4,
+  "latest_nav_date": "2026-08-13",
   "top_property_soe_holdings": [
-    { "rank": 1, "name": "中國建築 (China State Construction 601668.SH)", "type": "央企巨頭/房建營建", "weight": "5.10%" },
-    { "rank": 2, "name": "保利發展 (Poly Developments 600048.SH)", "type": "央企龍頭地產商", "weight": "4.20%" },
-    { "rank": 3, "name": "華潤置地 (China Resources Land 1109.HK)", "type": "國有地產開發商", "weight": "3.60%" },
-    { "rank": 4, "name": "中國海外發展 (China Overseas Land 0688.HK)", "type": "中央國企地產旗艦", "weight": "3.00%" }
+    {
+      "rank": 1,
+      "name": "中國建築 (China State Construction 601668.SH)",
+      "type": "央企巨頭/房建營建",
+      "weight": "5.10%"
+    },
+    {
+      "rank": 2,
+      "name": "保利發展 (Poly Developments 600048.SH)",
+      "type": "央企龍頭地產商",
+      "weight": "4.20%"
+    },
+    {
+      "rank": 3,
+      "name": "華潤置地 (China Resources Land 1109.HK)",
+      "type": "國有地產開發商",
+      "weight": "3.60%"
+    },
+    {
+      "rank": 4,
+      "name": "中國海外發展 (China Overseas Land 0688.HK)",
+      "type": "中央國企地產旗艦",
+      "weight": "3.00%"
+    }
   ],
   "top_other_holdings": [
-    { "rank": 1, "name": "長江電力 (China Yangtze Power 600900.SH)", "weight": "4.50%" },
-    { "rank": 2, "name": "大秦鐵路 (Daqin Railway 601006.SH)", "weight": "3.80%" },
-    { "rank": 3, "name": "中國中車 (CRRC Corporation 601766.SH)", "weight": "3.20%" }
+    {
+      "rank": 1,
+      "name": "長江電力 (China Yangtze Power 600900.SH)",
+      "weight": "4.50%"
+    },
+    {
+      "rank": 2,
+      "name": "大秦鐵路 (Daqin Railway 601006.SH)",
+      "weight": "3.80%"
+    },
+    {
+      "rank": 3,
+      "name": "中國中車 (CRRC Corporation 601766.SH)",
+      "weight": "3.20%"
+    }
   ],
   "china_soes_property_strategy": "100% 聚焦中國新舊基建與保障房城鎮化建設，為 4 檔基金中中國國有不動產與營建央企集中度最高者。"
 }
