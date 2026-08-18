@@ -8,20 +8,20 @@
   - 客戶 profile: 85 歲，極低風險偏好，本金保全導向，目標超越通膨 (2-3%)。
   - 初始投入總本金: NT$ 2,000,000。
   - 追蹤三檔基金配置：
-    1. 元大全球ETF穩健組合基金 40% (NT$ 800,000 / 34,028.07 單位 / 淨值 $23.51)
-    2. 安聯四季回報債券組合基金-A類型(累積)-新臺幣 30% (NT$ 600,000 / 35,226.35 單位 / 淨值 $17.0327)
-    3. 野村全球高股息基金累積型新台幣 30% (NT$ 600,000 / 13,544.02 單位 / 淨值 $44.3000)
-- [x] **系統資料庫與總儀錶板更新**：
-  - 更新 `data/accounts.json`, `data/transactions.json`, `data/fund_details_mom.json`, `accounts/mom_portfolio.md`
-  - 重構 `index.html` 與 `app.js` 總儀表版（支援 40/30/30 配置圓餅圖、估值柱狀圖、持股卡片與交易紀錄）
-- [x] **三層級初始化與 GitHub Pages 發布**：
-  - L1 本地藍圖 `AGENTS.md` + `handoff.md`
-  - L2 GitHub 提交並 push 至 GitHub Pages
-  - L3 Obsidian 筆記於 `/Users/garfiwang/Documents/Obsidian/[Project] 基金管理-程蘭英/專案工作流程.md`
+    1. 元大全球ETF穩健組合基金 40% (NT$ 800,000)
+    2. 安聯四季回報債券組合基金-A類型(累積)-新臺幣 30% (NT$ 600,000)
+    3. 野村全球高股息基金累積型新台幣 30% (NT$ 600,000)
+- [x] **建置 3 檔基金專屬研究子頁面**：
+  - `yuanta_stable_research.html` (基本資料、十大持股、近30日淨值走勢與圖表、區域與資產分佈、波動度/Sharpe/Beta風險指標)
+  - `allianz_bond_research.html` (基本資料、十大持股、近30日淨值走勢與圖表、區域與資產分佈、波動度/Sharpe/Beta風險指標)
+  - `nomura_dividend_research.html` (基本資料、十大持股、近30日淨值走勢與圖表、區域與資產分佈、波動度/Sharpe/Beta風險指標)
+- [x] **總儀錶板連結整合與 GitHub Pages 發布**：
+  - 總儀表版 `index.html` 頂部導覽列與卡片皆整合直達 3 檔專屬子頁面連結
+  - 變更已 Push 至 GitHub 並更新 GitHub Pages
 
 ## 🎯 下一步做什麼
 1. 定期追蹤三大基金每日最新淨值並連動估值計算。
-2. 若有新增配息或交易扣款紀錄，填入 `data/transactions.json`。
+2. 若有新增交易或費用，記錄於 `data/transactions.json`。
 
 ---
-*最後更新時間：2026-08-18 11:26 | 更新者：Antigravity @ Mac*
+*最後更新時間：2026-08-18 11:42 | 更新者：Antigravity @ Mac*

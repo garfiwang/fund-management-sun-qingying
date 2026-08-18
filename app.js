@@ -270,7 +270,8 @@ function renderFundCards() {
       nav: "$23.51 TWD",
       risk: "RR3 中度風險",
       strategy: "全球跨資產 ETF 組合，核心配置股債 ETF 防守兼備",
-      color: "#2563eb"
+      color: "#2563eb",
+      page: "yuanta_stable_research.html"
     },
     {
       code: "ALLIANZ_BOND",
@@ -281,7 +282,8 @@ function renderFundCards() {
       nav: "$17.0327 TWD",
       risk: "RR3 中度風險",
       strategy: "優質全球債券組合，專注固定收益累積與抗下行波動",
-      color: "#059669"
+      color: "#059669",
+      page: "allianz_bond_research.html"
     },
     {
       code: "NOMURA_DIVIDEND",
@@ -292,7 +294,8 @@ function renderFundCards() {
       nav: "$44.3000 TWD",
       risk: "RR3 中度風險",
       strategy: "成熟市場高股息企業，累積型無須頻繁除息繳稅，追求穩定增值",
-      color: "#d97706"
+      color: "#d97706",
+      page: "nomura_dividend_research.html"
     }
   ];
 
@@ -328,12 +331,16 @@ function renderFundCards() {
         </div>
       </div>
 
-      <div class="insurance-banner" style="background: #f8fafc; border-color: #e2e8f0; margin-top: 14px;">
+      <div class="insurance-banner" style="background: #f8fafc; border-color: #e2e8f0; margin-top: 14px; margin-bottom: 14px;">
         <div class="insurance-title" style="color: var(--text-secondary);"><i class="fa-solid fa-lightbulb"></i> 資產定位與優勢</div>
         <div style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5;">
           ${fund.strategy}
         </div>
       </div>
+
+      <a href="${fund.page}" class="nav-btn" style="display: block; text-align: center; background: ${fund.color}; color: #ffffff; font-weight: 800; padding: 10px; border-radius: 8px; border: none; text-decoration: none;">
+        <i class="fa-solid fa-square-poll-vertical"></i> 查看該基金專屬研究報告 (基本資料/持股/淨值/風險)
+      </a>
     `;
     container.appendChild(div);
   });

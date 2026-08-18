@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>野村全球高股息基金累積型 - 基金詳細研究與風險分析</title>
+  <meta name="description" content="客戶 MOM 基金管理 - 野村全球高股息基金累積型基本資料、十大持股、近30日淨值走勢、區域產業分佈與風險指標分析。">
+  <meta name="theme-color" content="#f8fafc">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- Header Navigation -->
+    <header class="header-nav">
+      <div class="brand-section">
+        <div class="brand-icon" style="background: #d97706;">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+        <div>
+          <h1 class="brand-title">野村全球高股息基金累積型 (新臺幣)</h1>
+          <p class="brand-subtitle">30% 配置比重 (NT$ 600,000) · 成熟市場高股息龍頭與抗通膨增值標的</p>
+        </div>
+      </div>
+      <div class="header-status">
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+          <a href="index.html" class="nav-btn"><i class="fa-solid fa-house"></i> 總儀錶板</a>
+          <a href="yuanta_stable_research.html" class="nav-btn"><i class="fa-solid fa-chart-pie"></i> 元大穩健ETF (40%)</a>
+          <a href="allianz_bond_research.html" class="nav-btn"><i class="fa-solid fa-shield-halved"></i> 安聯四季債 (30%)</a>
+          <a href="nomura_dividend_research.html" class="nav-btn active" style="border: 2px solid #d97706; font-weight: 800;"><i class="fa-solid fa-coins"></i> 野村高股息 (30%)</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- SECTION 1: 基本資料 -->
+    <section class="glass-panel" style="margin-bottom: 24px;">
+      <div class="panel-header">
+        <h2 class="panel-title"><i class="fa-solid fa-circle-info" style="color: #d97706;"></i> 1. 基金基本資料 (Basic Information)</h2>
+        <span class="badge-tx buy" style="background: #fffbeb; color: #b45309; border-color: #fde68a;">RR3 中度風險</span>
+      </div>
+
+      <div class="account-details-list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+        <div class="detail-row">
+          <span class="detail-label">基金全稱</span>
+          <span class="detail-value" style="font-weight: 700;">野村全球高股息證券投資信託基金 - 累積型 (新臺幣)</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">發行機構 / 經理人</span>
+          <span class="detail-value">野村證券投資信託 (Nomura Asset Management)</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">成立日期</span>
+          <span class="detail-value">2003 年 05 月 19 日</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">基金類型</span>
+          <span class="detail-value">跨國投資股票型 (全球高股息股票)</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">計價幣別</span>
+          <span class="detail-value">新臺幣 (TWD)</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">最新參考淨值</span>
+          <span class="detail-value" style="color: #d97706; font-weight: 800; font-size: 1.1rem;">$44.3000 TWD (2026/08/13)</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">配息政策</span>
+          <span class="detail-value">累積型 (股息自動滾入再投資 / 免二代健保補充保費)</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">經理費 / 保管費</span>
+          <span class="detail-value">1.50% / 0.20% (每年)</span>
+        </div>
+      </div>
+      
+      <div style="margin-top: 16px; padding: 14px; background: #fffbeb; border-radius: 8px; border: 1px solid #fde68a; font-size: 0.88rem; color: #92400e; line-height: 1.6;">
+        <i class="fa-solid fa-coins"></i> <strong>投資目標與定位：</strong>本基金專注配置於全球具備高度資本實力與持續穩定配息能力之行業龍頭（如台積電 ADR、聯發科、三星電子、花旗等）。選用「累積型」讓高額股息直接併入淨值成長，省去 85 歲高齡投資人 MOM 報稅與二代健保費用，追求 4.5%~6.0% 年化增值以全面對抗通膨。
+      </div>
+    </section>
+
+    <!-- SECTION 2: 十大持股狀況 -->
+    <section class="glass-panel" style="margin-bottom: 24px;">
+      <div class="panel-header">
+        <h2 class="panel-title"><i class="fa-solid fa-list-ol" style="color: #d97706;"></i> 2. 前十大持股明細 (Top 10 Holdings)</h2>
+        <span class="text-muted" style="font-size: 0.82rem;">資料基準：2026/06 月報</span>
+      </div>
+
+      <div class="table-wrapper">
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th>排名</th>
+              <th>企業股票名稱 (Holdings)</th>
+              <th>產業類別</th>
+              <th>國家 / 地區</th>
+              <th style="text-align: right;">持股比例 (%)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="font-weight: 700; color: #d97706;">1</td>
+              <td style="font-weight: 700;">台積電 (TSMC) ADR</td>
+              <td><span class="badge-tx buy" style="background:#fffbeb; color:#b45309;">半導體晶圓代工</span></td>
+              <td>台灣 (Taiwan/US)</td>
+              <td style="font-weight: 800; text-align: right;">7.85%</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; color: #d97706;">2</td>
+              <td style="font-weight: 700;">聯發科 (MediaTek Inc.)</td>
+              <td><span class="badge-tx buy" style="background:#fffbeb; color:#b45309;">IC 設計龍頭</span></td>
+              <td>台灣 (Taiwan)</td>
+              <td style="font-weight: 800; text-align: right;">6.09%</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; color: #d97706;">3</td>
+              <td style="font-weight: 700;">三星電子 (Samsung Electronics)</td>
+              <td><span class="badge-tx buy" style="background:#fffbeb; color:#b45309;">消費電子/記憶體</span></td>
+              <td>韓國 (Korea)</td>
+              <td style="font-weight: 800; text-align: right;">5.53%</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; color: #d97706;">4</td>
+              <td style="font-weight: 700;">花旗集團 (Citigroup Inc.)</td>
+              <td><span class="badge-tx buy" style="background:#fffbeb; color:#b45309;">金融服務</span></td>
+              <td>美國 (USA)</td>
+              <td style="font-weight: 800; text-align: right;">4.48%</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; color: #d97706;">5</td>
+              <td style="font-weight: 700;">瑞穗金融集團 (Mizuho Financial Group)</td>
+              <td><span class="badge-tx buy" style="background:#fffbeb; color:#b45309;">金融控股</span></td>
+              <td>日本 (Japan)</td>
+              <td style="font-weight: 800; text-align: right;">4.17%</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; color: #d97706;">6</td>
+              <td style="font-weight: 700;">亞德諾半導體 (Analog Devices Inc.)</td>
+              <td><span class="badge-tx buy" style="background:#fffbeb; color:#b45309;">類比晶片</span></td>
+              <td>美國 (USA)</td>
+              <td style="font-weight: 800; text-align: right;">3.81%</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; color: #d97706;">7</td>
+              <td style="font-weight: 700;">可口可樂 (The Coca-Cola Company)</td>
+              <td><span class="badge-tx buy" style="background:#fffbeb; color:#b45309;">民生必需消費</span></td>
+              <td>美國 (USA)</td>
+              <td style="font-weight: 800; text-align: right;">3.38%</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; color: #d97706;">8</td>
+              <td style="font-weight: 700;">ACS 集團 (Grupo ACS)</td>
+              <td><span class="badge-tx buy" style="background:#fffbeb; color:#b45309;">基礎建設/營建</span></td>
+              <td>西班牙 (Spain)</td>
+              <td style="font-weight: 800; text-align: right;">3.25%</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; color: #d97706;">9</td>
+              <td style="font-weight: 700;">摩根士丹利 (Morgan Stanley)</td>
+              <td><span class="badge-tx buy" style="background:#fffbeb; color:#b45309;">投資銀行/財管</span></td>
+              <td>美國 (USA)</td>
+              <td style="font-weight: 800; text-align: right;">2.92%</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; color: #d97706;">10</td>
+              <td style="font-weight: 700;">江森自控 (Johnson Controls International)</td>
+              <td><span class="badge-tx buy" style="background:#fffbeb; color:#b45309;">智慧建築溫控</span></td>
+              <td>美國 (USA)</td>
+              <td style="font-weight: 800; text-align: right;">2.82%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SECTION 3: 最近 30 天淨值趨勢 -->
+    <section class="glass-panel" style="margin-bottom: 24px;">
+      <div class="panel-header">
+        <h2 class="panel-title"><i class="fa-solid fa-chart-line" style="color: #d97706;"></i> 3. 最近 30 天淨值走勢 (30-Day NAV History)</h2>
+        <span class="text-muted" style="font-size: 0.82rem;">最新價格 $44.3000</span>
+      </div>
+
+      <div class="chart-container" style="height: 320px; margin-bottom: 20px;">
+        <canvas id="nomuraNavChart"></canvas>
+      </div>
+
+      <div class="table-wrapper" style="max-height: 260px; overflow-y: auto;">
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th>日期</th>
+              <th>單位淨值 (TWD)</th>
+              <th>單日漲跌</th>
+              <th>申購基準點差異 ($44.3000)</th>
+            </tr>
+          </thead>
+          <tbody id="nomuraNavTableBody">
+            <!-- Injected via JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SECTION 4: 投資區域與產業分佈 -->
+    <section class="dashboard-grid" style="margin-bottom: 24px;">
+      <div class="glass-panel">
+        <div class="panel-header">
+          <h2 class="panel-title"><i class="fa-solid fa-earth-americas" style="color: #d97706;"></i> 4.1 投資區域分佈 (Geographic)</h2>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div>
+            <div style="display:flex; justify-content:space-between; font-size:0.85rem; font-weight:700; margin-bottom:4px;">
+              <span>🇺🇸 美國 (United States)</span>
+              <span style="color:#d97706;">48.5%</span>
+            </div>
+            <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 48.5%; background: #d97706;"></div></div>
+          </div>
+          <div>
+            <div style="display:flex; justify-content:space-between; font-size:0.85rem; font-weight:700; margin-bottom:4px;">
+              <span>🇹🇼 台灣 (Taiwan)</span>
+              <span style="color:#d97706;">18.5%</span>
+            </div>
+            <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 18.5%; background: #d97706;"></div></div>
+          </div>
+          <div>
+            <div style="display:flex; justify-content:space-between; font-size:0.85rem; font-weight:700; margin-bottom:4px;">
+              <span>🇯🇵 🇰🇷 日韓成熟市場 (Japan & Korea)</span>
+              <span style="color:#d97706;">15.0%</span>
+            </div>
+            <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 15%; background: #d97706;"></div></div>
+          </div>
+          <div>
+            <div style="display:flex; justify-content:space-between; font-size:0.85rem; font-weight:700; margin-bottom:4px;">
+              <span>🇪🇺 歐洲成熟市場 (Europe)</span>
+              <span style="color:#d97706;">13.0%</span>
+            </div>
+            <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 13%; background: #d97706;"></div></div>
+          </div>
+          <div>
+            <div style="display:flex; justify-content:space-between; font-size:0.85rem; font-weight:700; margin-bottom:4px;">
+              <span>💵 現金及其他儲備</span>
+              <span style="color:#94a3b8;">5.0%</span>
+            </div>
+            <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 5%; background: #94a3b8;"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-panel">
+        <div class="panel-header">
+          <h2 class="panel-title"><i class="fa-solid fa-chart-column" style="color: #d97706;"></i> 4.2 產業分佈 (Sector Allocation)</h2>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div>
+            <div style="display:flex; justify-content:space-between; font-size:0.85rem; font-weight:700; margin-bottom:4px;">
+              <span>💻 資訊科技與半導體 (Tech)</span>
+              <span style="color:#d97706;">32.0%</span>
+            </div>
+            <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 32%; background: #d97706;"></div></div>
+          </div>
+          <div>
+            <div style="display:flex; justify-content:space-between; font-size:0.85rem; font-weight:700; margin-bottom:4px;">
+              <span>🏦 金融服務與保險 (Financials)</span>
+              <span style="color:#d97706;">24.0%</span>
+            </div>
+            <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 24%; background: #d97706;"></div></div>
+          </div>
+          <div>
+            <div style="display:flex; justify-content:space-between; font-size:0.85rem; font-weight:700; margin-bottom:4px;">
+              <span>🛒 民生消費與必需品 (Consumer Staples)</span>
+              <span style="color:#d97706;">18.0%</span>
+            </div>
+            <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 18%; background: #d97706;"></div></div>
+          </div>
+          <div>
+            <div style="display:flex; justify-content:space-between; font-size:0.85rem; font-weight:700; margin-bottom:4px;">
+              <span>🏗️ 基礎建設與溫控 (Industrials)</span>
+              <span style="color:#d97706;">16.0%</span>
+            </div>
+            <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 16%; background: #d97706;"></div></div>
+          </div>
+          <div>
+            <div style="display:flex; justify-content:space-between; font-size:0.85rem; font-weight:700; margin-bottom:4px;">
+              <span>💵 現金及其他</span>
+              <span style="color:#94a3b8;">10.0%</span>
+            </div>
+            <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 10%; background: #94a3b8;"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: 風險指標與 MOM 風險評估 -->
+    <section class="glass-panel" style="margin-bottom: 24px;">
+      <div class="panel-header">
+        <h2 class="panel-title"><i class="fa-solid fa-shield-cat" style="color: #d97706;"></i> 5. 風險指標與高齡投資適性分析 (Risk Metrics)</h2>
+      </div>
+
+      <div class="metrics-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); margin-bottom: 20px;">
+        <div class="metric-card gold" style="padding: 16px;">
+          <div class="metric-label">風險報酬等級</div>
+          <div class="metric-value" style="font-size: 1.4rem; color: #d97706;">RR3 穩健型</div>
+        </div>
+        <div class="metric-card emerald" style="padding: 16px;">
+          <div class="metric-label">年化標準差 (3年)</div>
+          <div class="metric-value text-emerald" style="font-size: 1.4rem;">12.59%</div>
+        </div>
+        <div class="metric-card cyan" style="padding: 16px;">
+          <div class="metric-label">夏普值 (Sharpe Ratio)</div>
+          <div class="metric-value text-cyan" style="font-size: 1.4rem;">1.35</div>
+        </div>
+        <div class="metric-card rose" style="padding: 16px;">
+          <div class="metric-label">Beta 值 (對標全球股)</div>
+          <div class="metric-value" style="font-size: 1.4rem; color: #d97706;">0.78</div>
+        </div>
+      </div>
+
+      <div style="background: #fffbeb; border-radius: 8px; padding: 18px; border: 1px solid #fde68a; line-height: 1.7; font-size: 0.9rem;">
+        <h4 style="color: #92400e; margin-bottom: 8px; font-weight: 800;">
+          <i class="fa-solid fa-user-check" style="color: #d97706;"></i> 針對 85 歲 MOM 之風控評估與適性結論：
+        </h4>
+        <ul style="padding-left: 20px; color: #b45309; margin: 0;">
+          <li><strong>龍頭企業品質保證：</strong>持股集中於台積電、花旗、可口可樂等全球與台灣頂級龍頭企業，自由現金流充沛，抗風險力極強。</li>
+          <li><strong>累積型免稅負優勢：</strong>選擇累積型讓企業高額股息滾入淨值持續複利成長，免去二代健保補充保費與綜合所得稅，非常適合 85 歲高齡理財規劃。</li>
+          <li><strong>抗通膨引擎：</strong>30% 配比可提供年化 4.5%~6% 之資本增值動力，帶動全組合輕鬆超越 2%~2.5% 之通膨警戒線。</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>程蘭英 (MOM) - 基金理財帳戶管理系統 &copy; 2026 | 發布於 <a href="https://github.com/garfiwang/fund-management-sun-qingying" target="_blank">GitHub Repository</a></p>
+    </footer>
+
+  </div>
+
+  <script>
+    // 30-Day NAV Chart & Data Initialization
+    document.addEventListener('DOMContentLoaded', () => {
+      const navData = [
+        { date: "2026/08/13", nav: 44.3000, change: 0.0800 },
+        { date: "2026/08/12", nav: 44.2200, change: 0.0700 },
+        { date: "2026/08/11", nav: 44.1500, change: 0.1000 },
+        { date: "2026/08/08", nav: 44.0500, change: 0.0500 },
+        { date: "2026/08/07", nav: 44.0000, change: -0.1000 },
+        { date: "2026/08/06", nav: 44.1000, change: 0.0800 },
+        { date: "2026/08/05", nav: 44.0200, change: 0.1200 },
+        { date: "2026/08/04", nav: 43.9000, change: 0.0500 },
+        { date: "2026/08/01", nav: 43.8500, change: -0.0700 },
+        { date: "2026/07/31", nav: 43.9200, change: 0.0400 },
+        { date: "2026/07/30", nav: 43.8800, change: 0.0800 },
+        { date: "2026/07/29", nav: 43.8000, change: -0.0400 },
+        { date: "2026/07/28", nav: 43.8400, change: 0.0900 },
+        { date: "2026/07/25", nav: 43.7500, change: 0.0500 }
+      ];
+
+      // Table Render
+      const tbody = document.getElementById('nomuraNavTableBody');
+      navData.forEach(item => {
+        const tr = document.createElement('tr');
+        const diffFromBase = (item.nav - 44.3000).toFixed(4);
+        const changeClass = item.change >= 0 ? 'text-emerald' : 'text-rose';
+        tr.innerHTML = `
+          <td style="font-weight:600;">${item.date}</td>
+          <td style="font-weight:700;">$${item.nav.toFixed(4)}</td>
+          <td class="${changeClass}">${item.change >= 0 ? '+' : ''}${item.change.toFixed(4)}</td>
+          <td style="color:${diffFromBase >= 0 ? '#059669' : '#e11d48'}; font-weight:600;">${diffFromBase >= 0 ? '+' : ''}${diffFromBase}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      // Chart Render
+      const labels = navData.map(d => d.date.substring(5)).reverse();
+      const values = navData.map(d => d.nav).reverse();
+      
+      const ctx = document.getElementById('nomuraNavChart').getContext('2d');
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: '單位淨值 (TWD)',
+            data: values,
+            borderColor: '#d97706',
+            backgroundColor: 'rgba(217, 119, 6, 0.08)',
+            borderWidth: 2.5,
+            fill: true,
+            tension: 0.2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false } },
+            y: { ticks: { callback: v => '$' + v } }
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
