@@ -7,11 +7,21 @@
   "inception_date": "2020-09-16",
   "dividend_frequency": "月配息/配股",
   "latest_dividend_per_unit": 0.048,
-  "latest_nav": 10.585,
-  "latest_nav_date": "2026-08-13",
+  "latest_nav": 10.6,
+  "latest_nav_date": "2026-08-17",
   "subscription_price": 10.5,
   "subscription_date": "2026-06-29",
   "nav_30_days": [
+    {
+      "date": "2026/08/17",
+      "nav": 10.6,
+      "change": 0.008
+    },
+    {
+      "date": "2026/08/14",
+      "nav": 10.592,
+      "change": 0.007
+    },
     {
       "date": "2026/08/13",
       "nav": 10.585,
