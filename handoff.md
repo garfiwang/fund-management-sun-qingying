@@ -29,7 +29,7 @@
 - 📊 精選 7 檔基金中心：`https://garfiwang.github.io/fund-management-sun-qingying/featured_funds.html`
 
 ## 🕐 最後更新
-- 時間：2026-08-18 11:46
+- 時間：2026-08-18 11:53
 - 更新者：Antigravity @ M3-Air---garfiwang-3
-- 最新進度：已依指示徹底移除中國地產國企相關基金之追蹤、資料檔與網頁連結，完成系統乾淨化重構。
+- 最新進度：已修正並還原為純淨之客戶 SUN 雙帳戶理財總儀錶板，完成全站連結清理並已全數發布至 GitHub Pages (`main` & `gh-pages`)。
 - Git push：✅ 已推 (`main` & `gh-pages`)
