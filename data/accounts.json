@@ -8,7 +8,7 @@
       "initial_amount": 2000000,
       "current_balance": 1992339,
       "total_deductions": 12550,
-      "total_dividends": 14692,
+      "total_dividends": 29353,
       "valuation_date": "2026-08-17",
       "basic_sum_insured": 2800000,
       "life_death_benefit": 2809311,
@@ -51,6 +51,6 @@
   "total_initial_amount": 3000000,
   "total_current_valuation": 2992339,
   "total_deductions": 12550,
-  "total_dividends": 14692,
-  "last_updated": "2026-08-17T18:00:00+08:00"
+  "total_dividends": 29353,
+  "last_updated": "2026-08-21T10:30:00+08:00"
 }

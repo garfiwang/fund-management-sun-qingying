@@ -14,7 +14,7 @@ const fallbackData = {
         initial_amount: 2000000,
         current_balance: 1992339,
         total_deductions: 12550,
-        total_dividends: 14692,
+        total_dividends: 29353,
         valuation_date: "2026-08-17",
         basic_sum_insured: 2800000,
         life_death_benefit: 2809311,
@@ -46,8 +46,8 @@ const fallbackData = {
     total_initial_amount: 3000000,
     total_current_valuation: 2992339,
     total_deductions: 12550,
-    total_dividends: 14692,
-    last_updated: "2026-08-17T18:00:00+08:00"
+    total_dividends: 29353,
+    last_updated: "2026-08-21T10:30:00+08:00"
   },
   transactions: [
     {
@@ -71,6 +71,17 @@ const fallbackData = {
       units: 293837.860957,
       price: 0.05,
       total_amount: 14692
+    },
+    {
+      id: "DIV-2318-20260731-01",
+      date: "2026-07-31",
+      account_id: "2318",
+      target_name: "柏瑞多重資產特別收益基金-B類型 - (配現金)",
+      type: "配息",
+      payment_method: "銀行轉帳",
+      units: 293221.345622,
+      price: 0.05,
+      total_amount: 14661
     },
     { id: "FEE-2318-20260723-01", date: "2026-07-23", account_id: "2318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
     { id: "FEE-2318-20260723-02", date: "2026-07-23", account_id: "2318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 3974 },
