@@ -29,12 +29,22 @@
       "account_id": "9318",
       "name": "帳戶2",
       "initial_amount": 1000000,
-      "current_balance": 1000000,
-      "total_deductions": 0,
+      "current_balance": 1017464,
+      "total_deductions": 4291,
       "total_dividends": 0,
+      "valuation_date": "2026-08-17",
       "start_date": "2026-06-30",
       "status": "active",
-      "holdings": []
+      "holdings": [
+        {
+          "target_name": "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
+          "units": 150690.823657,
+          "avg_price": 6.6399,
+          "latest_price": 6.7520,
+          "cost_amount": 1000572,
+          "current_valuation": 1017464
+        }
+      ]
     },
     {
       "account_id": "TBD",
@@ -49,8 +59,8 @@
     }
   ],
   "total_initial_amount": 3000000,
-  "total_current_valuation": 2992339,
-  "total_deductions": 12550,
+  "total_current_valuation": 3009803,
+  "total_deductions": 16841,
   "total_dividends": 29353,
-  "last_updated": "2026-08-21T10:30:00+08:00"
+  "last_updated": "2026-08-21T10:35:00+08:00"
 }

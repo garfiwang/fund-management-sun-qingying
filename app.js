@@ -35,19 +35,29 @@ const fallbackData = {
         account_id: "9318",
         name: "帳戶2",
         initial_amount: 1000000,
-        current_balance: 1000000,
-        total_deductions: 0,
+        current_balance: 1017464,
+        total_deductions: 4291,
         total_dividends: 0,
+        valuation_date: "2026-08-17",
         start_date: "2026-06-30",
         status: "active",
-        holdings: []
+        holdings: [
+          {
+            target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
+            units: 150690.823657,
+            avg_price: 6.6399,
+            latest_price: 6.7520,
+            cost_amount: 1000572,
+            current_valuation: 1017464
+          }
+        ]
       }
     ],
     total_initial_amount: 3000000,
-    total_current_valuation: 2992339,
-    total_deductions: 12550,
+    total_current_valuation: 3009803,
+    total_deductions: 16841,
     total_dividends: 29353,
-    last_updated: "2026-08-21T10:30:00+08:00"
+    last_updated: "2026-08-21T10:35:00+08:00"
   },
   transactions: [
     {
@@ -60,6 +70,17 @@ const fallbackData = {
       units: 295073.887267,
       price: 6.7806,
       total_amount: 2000778
+    },
+    {
+      id: "TX-9318-20260817-01",
+      date: "2026-08-17",
+      account_id: "9318",
+      target_name: "柏瑞多重資產特別收益基金-B類型 - (配現金)",
+      currency: "TWD",
+      type: "申購",
+      units: 150690.823657,
+      price: 6.6399,
+      total_amount: 1000572
     },
     {
       id: "DIV-2318-20260630-01",
@@ -91,7 +112,13 @@ const fallbackData = {
     { id: "FEE-2318-20260702-03", date: "2026-07-02", account_id: "2318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 95 },
     { id: "FEE-2318-20260702-04", date: "2026-07-02", account_id: "2318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
     { id: "FEE-2318-20260702-05", date: "2026-07-02", account_id: "2318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 4000 },
-    { id: "FEE-2318-20260702-06", date: "2026-07-02", account_id: "2318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 95 }
+    { id: "FEE-2318-20260702-06", date: "2026-07-02", account_id: "2318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 95 },
+    { id: "FEE-9318-20260820-01", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
+    { id: "FEE-9318-20260820-02", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 2000 },
+    { id: "FEE-9318-20260820-03", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 47 },
+    { id: "FEE-9318-20260820-04", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
+    { id: "FEE-9318-20260820-05", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 1996 },
+    { id: "FEE-9318-20260820-06", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 48 }
   ],
   fundDetails: {
     fund_code: "BGTPB022",
