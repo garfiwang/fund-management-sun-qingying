@@ -27,7 +27,7 @@ async function loadFundDetails() {
 
 function renderQuickMetrics() {
   if (!fundData) return;
-  const latestNav = fundData.latest_nav || 11.0360;
+  const latestNav = fundData.latest_nav || 11.0880;
   const subPrice = fundData.subscription_price || 10.8500;
   const diff = latestNav - subPrice;
   const diffPct = ((diff / subPrice) * 100).toFixed(2);
