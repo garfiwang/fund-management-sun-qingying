@@ -12,12 +12,12 @@ const fallbackData = {
         account_id: "2318",
         name: "帳戶1",
         initial_amount: 2000000,
-        current_balance: 2004142,
+        current_balance: 1952651,
         total_deductions: 12550,
         total_dividends: 29353,
-        valuation_date: "2026-08-25",
+        valuation_date: "2026-08-21",
         basic_sum_insured: 2800000,
-        life_death_benefit: 2821114,
+        life_death_benefit: 2769619,
         start_date: "2026-05-22",
         status: "active",
         holdings: [
@@ -25,9 +25,9 @@ const fallbackData = {
             target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
             units: 295073.887267,
             avg_price: 6.7806,
-            latest_price: 6.7920,
+            latest_price: 6.6175,
             cost_amount: 2000778,
-            current_valuation: 2004142
+            current_valuation: 1952651
           }
         ]
       },
@@ -35,10 +35,10 @@ const fallbackData = {
         account_id: "9318",
         name: "帳戶2",
         initial_amount: 1000000,
-        current_balance: 1023492,
+        current_balance: 997197,
         total_deductions: 4291,
         total_dividends: 0,
-        valuation_date: "2026-08-25",
+        valuation_date: "2026-08-21",
         start_date: "2026-06-30",
         status: "active",
         holdings: [
@@ -46,15 +46,15 @@ const fallbackData = {
             target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
             units: 150690.823657,
             avg_price: 6.6399,
-            latest_price: 6.7920,
+            latest_price: 6.6175,
             cost_amount: 1000572,
-            current_valuation: 1023492
+            current_valuation: 997197
           }
         ]
       }
     ],
     total_initial_amount: 3000000,
-    total_current_valuation: 3027634,
+    total_current_valuation: 2949848,
     total_deductions: 16841,
     total_dividends: 29353,
     last_updated: "2026-08-21T10:35:00+08:00"
