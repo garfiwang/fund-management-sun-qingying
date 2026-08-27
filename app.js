@@ -12,12 +12,12 @@ const fallbackData = {
         account_id: "2318",
         name: "帳戶1",
         initial_amount: 2000000,
-        current_balance: 1952651,
+        current_balance: 1955366,
         total_deductions: 12550,
         total_dividends: 29353,
-        valuation_date: "2026-08-21",
+        valuation_date: "2026-08-25",
         basic_sum_insured: 2800000,
-        life_death_benefit: 2769619,
+        life_death_benefit: 2772334,
         start_date: "2026-05-22",
         status: "active",
         holdings: [
@@ -25,9 +25,9 @@ const fallbackData = {
             target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
             units: 295073.887267,
             avg_price: 6.7806,
-            latest_price: 6.6175,
+            latest_price: 6.6267,
             cost_amount: 2000778,
-            current_valuation: 1952651
+            current_valuation: 1955366
           }
         ]
       },
@@ -35,10 +35,10 @@ const fallbackData = {
         account_id: "9318",
         name: "帳戶2",
         initial_amount: 1000000,
-        current_balance: 997197,
+        current_balance: 998583,
         total_deductions: 4291,
         total_dividends: 0,
-        valuation_date: "2026-08-21",
+        valuation_date: "2026-08-25",
         start_date: "2026-06-30",
         status: "active",
         holdings: [
@@ -46,15 +46,15 @@ const fallbackData = {
             target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
             units: 150690.823657,
             avg_price: 6.6399,
-            latest_price: 6.6175,
+            latest_price: 6.6267,
             cost_amount: 1000572,
-            current_valuation: 997197
+            current_valuation: 998583
           }
         ]
       }
     ],
     total_initial_amount: 3000000,
-    total_current_valuation: 2949848,
+    total_current_valuation: 2953949,
     total_deductions: 16841,
     total_dividends: 29353,
     last_updated: "2026-08-21T10:35:00+08:00"
@@ -125,6 +125,7 @@ const fallbackData = {
     fund_name: "柏瑞多重資產特別收益證券投資信託基金 - B類型 - (配現金)",
     subscription_price: 6.7806,
     nav_30_days: [
+      { date: "2026/08/25", nav: 6.6267, change: 0.0092 },
       { date: "2026/08/25", nav: 6.7920, change: 0.0070 },
       { date: "2026/08/24", nav: 6.7850, change: 0.0070 },
       { date: "2026/08/21", nav: 6.7780, change: 0.0060 },
