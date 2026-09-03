@@ -9,7 +9,7 @@ const fallbackFundDetails = {
   currency: "TWD",
   risk_level: "RR3",
   latest_dividend_per_unit: 0.05,
-  latest_nav: 6.6267,
+  latest_nav: 6.6480,
   latest_nav_date: 2026-08-13,
   subscription_price: 6.7806,
   subscription_date: "2026-06-29",
@@ -108,7 +108,7 @@ async function loadFundDetails() {
 
 function renderQuickMetrics() {
   if (!fundData) return;
-  const latestNav = fundData.latest_nav || 6.6267;
+  const latestNav = fundData.latest_nav || 6.6480;
   const subPrice = fundData.subscription_price || 6.7806;
   const diff = latestNav - subPrice;
   const diffPct = ((diff / subPrice) * 100).toFixed(2);
