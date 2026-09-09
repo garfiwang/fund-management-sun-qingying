@@ -56,7 +56,7 @@
           <span class="metric-label">總資產估值</span>
           <div class="metric-icon"><i class="fa-solid fa-vault"></i></div>
         </div>
-        <div class="metric-value" id="totalValuation">NT$ 3,009,803</div>
+        <div class="metric-value" id="totalValuation">NT$ 2,895,536</div>
         <div class="metric-sub">
           <span class="text-secondary">本金 NT$ 3,000,000</span>
         </div>
@@ -78,20 +78,20 @@
           <span class="metric-label">帳戶扣款總費用</span>
           <div class="metric-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
         </div>
-        <div class="metric-value text-cyan" id="totalDeductions">NT$ 16,841</div>
+        <div class="metric-value text-cyan" id="totalDeductions">NT$ 20,921</div>
         <div class="metric-sub">
-          <span class="text-secondary">保單管理費與保險成本 (15筆)</span>
+          <span class="text-secondary">保單管理費與保險成本 (18筆)</span>
         </div>
       </div>
 
-      <div class="metric-card emerald">
+      <div class="metric-card rose">
         <div class="metric-header">
           <span class="metric-label">含息淨損益 (含配息減費用)</span>
           <div class="metric-icon"><i class="fa-solid fa-chart-line"></i></div>
         </div>
-        <div class="metric-value text-emerald" id="netIncomeVal">+NT$ 39,156</div>
-        <div class="metric-sub text-emerald" id="netIncomeRate">
-          <i class="fa-solid fa-arrow-trend-up"></i> +1.31% 總含息報酬
+        <div class="metric-value text-rose" id="netIncomeVal">-NT$ 75,111</div>
+        <div class="metric-sub text-rose" id="netIncomeRate">
+          <i class="fa-solid fa-arrow-trend-down"></i> -2.50% 總含息報酬
         </div>
       </div>
     </section>
@@ -111,15 +111,13 @@
       <div class="glass-panel">
         <div class="panel-header">
           <h2 class="panel-title"><i class="fa-solid fa-chart-pie"></i> 資產配置比重</h2>
-          <span class="text-muted" style="font-size: 0.82rem;">持股與現金</span>
+          <span class="text-muted" style="font-size: 0.82rem;">各標的持股分佈</span>
         </div>
         <div class="chart-container">
           <canvas id="allocationChart"></canvas>
         </div>
       </div>
     </section>
-
-
 
     <!-- Detailed Accounts Section -->
     <h2 style="font-size: 1.2rem; font-weight: 800; margin-bottom: 16px; color: var(--text-primary);">
@@ -132,9 +130,9 @@
         <div class="account-card-header">
           <div>
             <div class="account-name">帳戶 1 <span class="account-id">(代號: 2318)</span></div>
-            <div class="account-valuation-big" id="acc1Valuation">$1,992,339</div>
+            <div class="account-valuation-big" id="acc1Valuation">$1,912,218</div>
           </div>
-          <span class="account-tag">保單投資帳戶</span>
+          <span class="account-tag">保單投資帳戶 · 3 檔配置</span>
         </div>
 
         <div class="account-details-list">
@@ -142,25 +140,58 @@
             <span class="detail-label">初始投入本金</span>
             <span class="detail-value">$2,000,000 TWD</span>
           </div>
-          <div class="detail-row">
-            <span class="detail-label">主要持股標的</span>
-            <span class="detail-value">
-              <a href="fund_research.html" style="color: var(--color-indigo); text-decoration: underline; font-weight: 700;" title="點擊查看標的基金詳細研究報告與30天淨值">
-                柏瑞多重資產特別收益-B <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.72rem;"></i>
-              </a>
-            </span>
+          <div class="detail-row" style="flex-direction: column; align-items: stretch; gap: 8px; background: var(--bg-subtle); padding: 12px; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+            <div style="font-size: 0.82rem; font-weight: 700; color: var(--text-primary); display: flex; justify-content: space-between;">
+              <span><i class="fa-solid fa-layer-group" style="color: var(--color-indigo); margin-right: 4px;"></i> 持有標的明細 (3 檔)</span>
+              <span>帳戶價值 (現值)</span>
+            </div>
+            
+            <!-- Target 1 -->
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-top: 1px dashed var(--border-color); font-size: 0.82rem;">
+              <div>
+                <a href="fund_research.html" style="color: var(--color-indigo); font-weight: 700; text-decoration: underline;">
+                  柏瑞特別收益-B <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.65rem;"></i>
+                </a>
+                <div style="font-size: 0.72rem; color: var(--text-secondary);">234,083.84 單位 · 淨值 $6.5254</div>
+              </div>
+              <div style="text-align: right;">
+                <div style="font-weight: 700;">$1,527,491</div>
+                <div style="font-size: 0.72rem; color: var(--color-rose); font-weight: 600;">-3.76% (含息 -2.34%)</div>
+              </div>
+            </div>
+
+            <!-- Target 2 -->
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-top: 1px dashed var(--border-color); font-size: 0.82rem;">
+              <div>
+                <span style="font-weight: 700; color: var(--text-primary);">台灣股市50精選( 3 )</span>
+                <div style="font-size: 0.72rem; color: var(--text-secondary);">3,044.95 單位 · 淨值 $63.5192</div>
+              </div>
+              <div style="text-align: right;">
+                <div style="font-weight: 700;">$193,413</div>
+                <div style="font-size: 0.72rem; color: var(--color-emerald); font-weight: 600;">+1.61%</div>
+              </div>
+            </div>
+
+            <!-- Target 3 -->
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-top: 1px dashed var(--border-color); font-size: 0.82rem;">
+              <div>
+                <span style="font-weight: 700; color: var(--text-primary);">中信科技趨勢-臺幣B</span>
+                <div style="font-size: 0.72rem; color: var(--text-secondary);">15,428.42 單位 · 淨值 $12.4001</div>
+              </div>
+              <div style="text-align: right;">
+                <div style="font-weight: 700;">$191,314</div>
+                <div style="font-size: 0.72rem; color: var(--text-secondary); font-weight: 600;">0.00%</div>
+              </div>
+            </div>
           </div>
-          <div class="detail-row">
-            <span class="detail-label">持股單位數 / 估算淨值</span>
-            <span class="detail-value">295,073.88 單位 / $6.7520</span>
-          </div>
+
           <div class="detail-row">
             <span class="detail-label">累積配息收益</span>
             <span class="detail-value text-emerald">+$29,353 TWD</span>
           </div>
           <div class="detail-row">
             <span class="detail-label">累積扣款費用</span>
-            <span class="detail-value text-rose">-$12,550 TWD</span>
+            <span class="detail-value text-rose" id="acc1Deductions">-$16,630 TWD</span>
           </div>
         </div>
 
@@ -168,7 +199,7 @@
           <div class="insurance-title"><i class="fa-solid fa-shield-halved"></i> 附帶壽險保單保障摘要</div>
           <div class="insurance-grid">
             <div>基本保額: <strong>$2,800,000</strong></div>
-            <div>身故保險金: <strong>$2,809,311</strong></div>
+            <div>身故保險金: <strong id="acc1DeathBenefit">$2,770,647</strong></div>
             <div>首期投入: <strong>2026/06/29</strong></div>
             <div>保單狀態: <strong>正常生效</strong></div>
           </div>
@@ -180,7 +211,7 @@
         <div class="account-card-header">
           <div>
             <div class="account-name">帳戶 2 <span class="account-id">(代號: 9318)</span></div>
-            <div class="account-valuation-big" id="acc2Valuation">$1,017,464</div>
+            <div class="account-valuation-big" id="acc2Valuation">$983,318</div>
           </div>
           <span class="account-tag">保單投資帳戶</span>
         </div>
@@ -200,7 +231,7 @@
           </div>
           <div class="detail-row">
             <span class="detail-label">持股單位數 / 估算淨值</span>
-            <span class="detail-value">150,690.82 單位 / $6.7520</span>
+            <span class="detail-value">150,690.82 單位 / $6.5254</span>
           </div>
           <div class="detail-row">
             <span class="detail-label">累積配息收益</span>
@@ -208,7 +239,7 @@
           </div>
           <div class="detail-row">
             <span class="detail-label">累積扣款費用</span>
-            <span class="detail-value text-rose">-$4,291 TWD</span>
+            <span class="detail-value text-rose" id="acc2Deductions">-$4,291 TWD</span>
           </div>
         </div>
 
