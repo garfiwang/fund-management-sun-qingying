@@ -406,6 +406,50 @@ body {
 .filter-pills {
   display: flex;
   gap: 8px;
+  flex-wrap: wrap;
+}
+
+.sort-control-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-card);
+  padding: 4px 10px 4px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+.sort-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.sort-label i {
+  color: var(--color-indigo);
+}
+
+.sort-select {
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+  background: var(--bg-subtle);
+  color: var(--text-primary);
+  font-size: 0.82rem;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.sort-select:focus {
+  border-color: var(--color-indigo);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
 }
 
 .filter-btn {
@@ -446,6 +490,38 @@ body {
   font-weight: 700;
   border-bottom: 1px solid var(--border-color);
   white-space: nowrap;
+}
+
+.custom-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.custom-table th.sortable:hover {
+  background: #f1f5f9;
+  color: var(--color-indigo);
+}
+
+.custom-table th.sortable.active {
+  color: var(--color-indigo);
+  background: #eff6ff;
+}
+
+.th-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sort-icon {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  transition: transform 0.15s, color 0.15s;
+}
+
+.custom-table th.sortable.active .sort-icon {
+  color: var(--color-indigo);
 }
 
 .custom-table td {

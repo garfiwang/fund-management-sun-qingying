@@ -202,7 +202,9 @@ let appState = {
   transactionsData: null,
   fundDetailsData: null,
   currentFilter: 'all',
-  searchQuery: ''
+  searchQuery: '',
+  sortField: 'date',
+  sortOrder: 'desc'
 };
 
 // Initialize Application
@@ -276,8 +278,20 @@ function renderSummary() {
   // Account Card Values
   const acc1 = data.accounts.find(a => a.account_id === '2318');
   const acc2 = data.accounts.find(a => a.account_id === '9318');
-  if (acc1) document.getElementById('acc1Valuation').textContent = '$' + acc1.current_balance.toLocaleString();
-  if (acc2) document.getElementById('acc2Valuation').textContent = '$' + acc2.current_balance.toLocaleString();
+  if (acc1) {
+    const acc1ValEl = document.getElementById('acc1Valuation');
+    if (acc1ValEl) acc1ValEl.textContent = '$' + acc1.current_balance.toLocaleString();
+    const acc1DeathEl = document.getElementById('acc1DeathBenefit');
+    if (acc1DeathEl) acc1DeathEl.textContent = '$' + acc1.life_death_benefit.toLocaleString();
+    const acc1FeeEl = document.getElementById('acc1Deductions');
+    if (acc1FeeEl) acc1FeeEl.textContent = '-$' + acc1.total_deductions.toLocaleString() + ' TWD';
+  }
+  if (acc2) {
+    const acc2ValEl = document.getElementById('acc2Valuation');
+    if (acc2ValEl) acc2ValEl.textContent = '$' + acc2.current_balance.toLocaleString();
+    const acc2FeeEl = document.getElementById('acc2Deductions');
+    if (acc2FeeEl) acc2FeeEl.textContent = '-$' + acc2.total_deductions.toLocaleString() + ' TWD';
+  }
 }
 
 // Render Chart.js Visualizations (Light Theme Palette)
@@ -303,13 +317,13 @@ function renderCharts() {
         },
         {
           label: '目前估值 (TWD)',
-          data: [acc1 ? acc1.current_balance : 1968336, acc2 ? acc2.current_balance : 1000000],
+          data: [acc1 ? acc1.current_balance : 1912218, acc2 ? acc2.current_balance : 983318],
           backgroundColor: '#d97706',
           borderRadius: 4
         },
         {
           label: '累積配息 (TWD)',
-          data: [acc1 ? acc1.total_dividends : 14692, acc2 ? acc2.total_dividends : 0],
+          data: [acc1 ? acc1.total_dividends : 29353, acc2 ? acc2.total_dividends : 0],
           backgroundColor: '#059669',
           borderRadius: 4
         }
@@ -341,17 +355,24 @@ function renderCharts() {
     }
   });
 
-  // Chart 2: Asset Allocation (Doughnut)
+  // Chart 2: Asset Allocation (Doughnut) - Breakdown of holdings
   const ctxAllocation = document.getElementById('allocationChart').getContext('2d');
   new Chart(ctxAllocation, {
     type: 'doughnut',
     data: {
-      labels: ['帳戶 1 - 柏瑞多重資產特別收益基金', '帳戶 2 - 儲備現金'],
+      labels: [
+        '帳戶 1 - 柏瑞特別收益-B (NT$ 152.7萬)',
+        '帳戶 1 - 台灣股市50精選(3) (NT$ 19.3萬)',
+        '帳戶 1 - 中信科技趨勢-臺幣B (NT$ 19.1萬)',
+        '帳戶 2 - 柏瑞特別收益-B (NT$ 98.3萬)'
+      ],
       datasets: [{
-        data: [acc1 ? acc1.current_balance : 1968336, acc2 ? acc2.current_balance : 1000000],
+        data: [1527491, 193413, 191314, 983318],
         backgroundColor: [
           '#d97706',
-          '#0284c7'
+          '#059669',
+          '#2563eb',
+          '#7c3aed'
         ],
         borderColor: '#ffffff',
         borderWidth: 2
@@ -363,29 +384,29 @@ function renderCharts() {
       plugins: {
         legend: {
           position: 'bottom',
-          labels: { color: '#334155', padding: 16, font: { family: 'Plus Jakarta Sans', size: 11, weight: '600' } }
+          labels: { color: '#334155', padding: 12, font: { family: 'Plus Jakarta Sans', size: 10.5, weight: '600' } }
         },
         tooltip: {
           callbacks: {
             label: (context) => {
               const total = context.dataset.data.reduce((a, b) => a + b, 0);
               const pct = ((context.raw / total) * 100).toFixed(1);
-              return `${context.label}: $${context.raw.toLocaleString()} (${pct}%)`;
+              return `${context.label.split(' (')[0]}: $${context.raw.toLocaleString()} (${pct}%)`;
             }
           }
         }
       },
-      cutout: '70%'
+      cutout: '65%'
     }
   });
 }
 
-// Render Transactions & Fees Table
+// Render Transactions & Fees Table with Dynamic Sorting
 function renderTransactionsTable() {
   const tbody = document.getElementById('txTableBody');
   tbody.innerHTML = '';
 
-  let txList = appState.transactionsData || [];
+  let txList = [...(appState.transactionsData || [])];
 
   // Filter by Type Pill
   if (appState.currentFilter !== 'all') {
@@ -397,12 +418,36 @@ function renderTransactionsTable() {
     const q = appState.searchQuery.toLowerCase();
     txList = txList.filter(t => 
       (t.date && t.date.toLowerCase().includes(q)) ||
+      (t.record_date && t.record_date.toLowerCase().includes(q)) ||
       (t.target_name && t.target_name.toLowerCase().includes(q)) ||
       (t.item && t.item.toLowerCase().includes(q)) ||
+      (t.summary && t.summary.toLowerCase().includes(q)) ||
       (t.account_id && t.account_id.toLowerCase().includes(q)) ||
       (t.type && t.type.toLowerCase().includes(q))
     );
   }
+
+  // Apply Sorting
+  txList.sort((a, b) => {
+    let res = 0;
+    if (appState.sortField === 'date') {
+      const dateA = a.date || a.record_date || '';
+      const dateB = b.date || b.record_date || '';
+      res = dateA.localeCompare(dateB);
+    } else if (appState.sortField === 'item') {
+      const itemA = a.target_name || a.item || a.summary || '';
+      const itemB = b.target_name || b.item || b.summary || '';
+      res = itemA.localeCompare(itemB, 'zh-Hant');
+    } else if (appState.sortField === 'amount') {
+      const amtA = a.total_amount || a.amount || 0;
+      const amtB = b.total_amount || b.amount || 0;
+      res = amtA - amtB;
+    }
+    return appState.sortOrder === 'desc' ? -res : res;
+  });
+
+  // Update UI Elements for Sorting
+  updateSortUI();
 
   if (txList.length === 0) {
     tbody.innerHTML = `<tr><td colspan="7" style="text-align: center; color: var(--text-muted); padding: 24px;">尚無符合條件的交易紀錄</td></tr>`;
@@ -428,7 +473,7 @@ function renderTransactionsTable() {
       <td style="font-weight: 700;">${itemName}</td>
       <td style="color: var(--text-secondary);">${unitsStr}</td>
       <td style="color: var(--text-secondary);">${priceStr}</td>
-      <td style="font-weight: 800; color: ${item.type === '配息' ? 'var(--color-emerald)' : (item.type === '扣款' ? 'var(--color-rose)' : 'var(--text-primary)')};">
+      <td style="font-weight: 800; text-align: right; color: ${item.type === '配息' ? 'var(--color-emerald)' : (item.type === '扣款' ? 'var(--color-rose)' : 'var(--text-primary)')};">
         ${item.type === '配息' ? '+' : (item.type === '扣款' ? '-' : '')}$${amountVal.toLocaleString()}
       </td>
     `;
@@ -436,13 +481,44 @@ function renderTransactionsTable() {
   });
 }
 
+// Update Sort Dropdown & Table Header Indicators
+function updateSortUI() {
+  const sortSelect = document.getElementById('sortSelect');
+  if (sortSelect) {
+    const combinedVal = `${appState.sortField}-${appState.sortOrder}`;
+    if (sortSelect.value !== combinedVal) {
+      sortSelect.value = combinedVal;
+    }
+  }
+
+  const thHeaders = document.querySelectorAll('th.sortable');
+  thHeaders.forEach(th => {
+    const field = th.getAttribute('data-sort');
+    const icon = th.querySelector('.sort-icon');
+    if (field === appState.sortField) {
+      th.classList.add('active');
+      if (icon) {
+        icon.className = `fa-solid ${appState.sortOrder === 'desc' ? 'fa-sort-down' : 'fa-sort-up'} sort-icon`;
+      }
+    } else {
+      th.classList.remove('active');
+      if (icon) {
+        icon.className = 'fa-solid fa-sort sort-icon';
+      }
+    }
+  });
+}
+
 // Setup Event Listeners
 function setupEventListeners() {
   // Search Input
-  document.getElementById('searchInput').addEventListener('input', (e) => {
-    appState.searchQuery = e.target.value;
-    renderTransactionsTable();
-  });
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      appState.searchQuery = e.target.value;
+      renderTransactionsTable();
+    });
+  }
 
   // Filter Buttons
   const filterBtns = document.querySelectorAll('.filter-btn');
@@ -451,6 +527,34 @@ function setupEventListeners() {
       filterBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       appState.currentFilter = btn.getAttribute('data-filter');
+      renderTransactionsTable();
+    });
+  });
+
+  // Sort Dropdown Select
+  const sortSelect = document.getElementById('sortSelect');
+  if (sortSelect) {
+    sortSelect.addEventListener('change', (e) => {
+      const [field, order] = e.target.value.split('-');
+      appState.sortField = field;
+      appState.sortOrder = order;
+      renderTransactionsTable();
+    });
+  }
+
+  // Clickable Table Headers for Sorting
+  const thHeaders = document.querySelectorAll('th.sortable');
+  thHeaders.forEach(th => {
+    th.addEventListener('click', () => {
+      const field = th.getAttribute('data-sort');
+      if (appState.sortField === field) {
+        // Toggle order
+        appState.sortOrder = appState.sortOrder === 'desc' ? 'asc' : 'desc';
+      } else {
+        // New field, default to desc for date/amount, asc for item
+        appState.sortField = field;
+        appState.sortOrder = (field === 'item') ? 'asc' : 'desc';
+      }
       renderTransactionsTable();
     });
   });
