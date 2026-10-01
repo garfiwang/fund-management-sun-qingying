@@ -1,21 +1,26 @@
 {
-  "fund_code": "A35042",
-  "fund_name": "東方匯理實質收息多重資產基金-AD 月配型 - (配現金)",
+  "fund_code": "BGTPI025",
+  "fund_name": "東方匯理實質收息多重資產證券投資信託基金-AD 月配型(新臺幣) - (配現金)",
   "isin": "TW000T350422",
   "currency": "TWD",
   "risk_level": "RR4",
   "inception_date": "2018-05-22",
   "dividend_frequency": "月配息",
-  "latest_dividend_per_unit": 0.052,
-  "latest_nav": 9.6100,
-  "latest_nav_date": "2026-09-29",
-  "subscription_price": 9.95,
-  "subscription_date": "2026-06-29",
+  "latest_dividend_per_unit": 0.0576,
+  "latest_nav": 9.6300,
+  "latest_nav_date": "2026-09-24",
+  "subscription_price": 9.8900,
+  "subscription_date": "2026-09-04",
   "nav_30_days": [
     {
       "date": "2026/09/29",
       "nav": 9.6100,
-      "change": -0.0700
+      "change": -0.0200
+    },
+    {
+      "date": "2026/09/24",
+      "nav": 9.6300,
+      "change": -0.0500
     },
     {
       "date": "2026/09/23",

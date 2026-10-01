@@ -12,22 +12,44 @@ const fallbackData = {
         account_id: "2318",
         name: "帳戶1",
         initial_amount: 2000000,
-        current_balance: 1912218,
+        current_balance: 1897755,
         total_deductions: 16630,
         total_dividends: 29353,
-        valuation_date: "2026-09-04",
+        valuation_date: "2026-09-24",
         basic_sum_insured: 2800000,
         life_death_benefit: 2770647,
         start_date: "2026-05-22",
         status: "active",
         holdings: [
           {
-            target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
-            units: 295073.887267,
+            target_code: "BGTPB022",
+            target_name: "柏瑞多重資產特別收益基金-B類型 - (配現金)",
+            units: 234083.83887,
             avg_price: 6.7806,
-            latest_price: 6.5254,
-            cost_amount: 2000778,
-            current_valuation: 1527491
+            latest_price: 6.4407,
+            cost_amount: 1587229,
+            current_valuation: 1507664,
+            return_rate: -5.0128
+          },
+          {
+            target_code: "TCTPL003",
+            target_name: "台灣股市50精選( 3 )",
+            units: 3044.95306,
+            avg_price: 62.5155,
+            latest_price: 63.5192,
+            cost_amount: 190357,
+            current_valuation: 193413,
+            return_rate: 1.6055
+          },
+          {
+            target_code: "BGTCB002",
+            target_name: "中國信託科技趨勢多重資產基金-臺幣B - (配現金)",
+            units: 15428.423964,
+            avg_price: 12.4001,
+            latest_price: 12.7478,
+            cost_amount: 191314,
+            current_valuation: 196678,
+            return_rate: 2.8040
           }
         ]
       },
@@ -35,75 +57,82 @@ const fallbackData = {
         account_id: "9318",
         name: "帳戶2",
         initial_amount: 1000000,
-        current_balance: 983318,
+        current_balance: 970554,
         total_deductions: 4291,
         total_dividends: 0,
-        valuation_date: "2026-09-04",
+        valuation_date: "2026-09-23",
+        basic_sum_insured: 1400000,
+        life_death_benefit: 1400000,
         start_date: "2026-06-30",
         status: "active",
         holdings: [
           {
-            target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
+            target_code: "BGTPB022",
+            target_name: "柏瑞多重資產特別收益基金-B類型 - (配現金)",
             units: 150690.823657,
             avg_price: 6.6399,
-            latest_price: 6.5254,
+            latest_price: 6.4407,
             cost_amount: 1000572,
-            current_valuation: 983318
+            current_valuation: 970554,
+            return_rate: -3.0000
+          }
+        ]
+      },
+      {
+        account_id: "6318",
+        name: "帳戶3",
+        initial_amount: 500000,
+        current_balance: 484846,
+        total_deductions: 2240,
+        total_dividends: 2900,
+        valuation_date: "2026-09-24",
+        basic_sum_insured: 700000,
+        life_death_benefit: 697100,
+        start_date: "2026-08-10",
+        status: "active",
+        holdings: [
+          {
+            target_code: "BGTPI025",
+            target_name: "東方匯理實質收息多重資產證券投資信託基金-AD 月配型(新臺幣) - (配現金)",
+            units: 50347.440667,
+            avg_price: 9.8900,
+            latest_price: 9.6300,
+            cost_amount: 497936,
+            current_valuation: 484846,
+            return_rate: -2.6289
           }
         ]
       }
     ],
-    total_initial_amount: 3000000,
-    total_current_valuation: 2895536,
-    total_deductions: 20921,
-    total_dividends: 29353,
-    last_updated: "2026-08-21T10:35:00+08:00"
+    total_initial_amount: 3500000,
+    total_current_valuation: 3353155,
+    total_deductions: 23161,
+    total_dividends: 32253,
+    total_life_death_benefit: 4867747,
+    last_updated: "2026-10-01T09:18:00+08:00"
   },
   transactions: [
-    {
-      id: "TX-2318-20260629-01",
-      date: "2026-06-29",
-      account_id: "2318",
-      target_name: "柏瑞多重資產特別收益基金-B類型 - (配現金)",
-      currency: "TWD",
-      type: "申購",
-      units: 295073.887267,
-      price: 6.7806,
-      total_amount: 2000778
-    },
-    {
-      id: "TX-9318-20260817-01",
-      date: "2026-08-17",
-      account_id: "9318",
-      target_name: "柏瑞多重資產特別收益基金-B類型 - (配現金)",
-      currency: "TWD",
-      type: "申購",
-      units: 150690.823657,
-      price: 6.6399,
-      total_amount: 1000572
-    },
-    {
-      id: "DIV-2318-20260630-01",
-      date: "2026-06-30",
-      account_id: "2318",
-      target_name: "柏瑞多重資產特別收益基金-B類型 - (配現金)",
-      type: "配息",
-      payment_method: "銀行轉帳",
-      units: 293837.860957,
-      price: 0.05,
-      total_amount: 14692
-    },
-    {
-      id: "DIV-2318-20260731-01",
-      date: "2026-07-31",
-      account_id: "2318",
-      target_name: "柏瑞多重資產特別收益基金-B類型 - (配現金)",
-      type: "配息",
-      payment_method: "銀行轉帳",
-      units: 293221.345622,
-      price: 0.05,
-      total_amount: 14661
-    },
+    { id: "DIV-6318-20260915-01", date: "2026-09-15", account_id: "6318", type: "配息", target_name: "BGTPI025東方匯理實質收息多重資產-AD", units: "50,347.44", price: "0.0576", total_amount: 2900 },
+    { id: "FEE-6318-20260911-01", date: "2026-09-11", account_id: "6318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
+    { id: "FEE-6318-20260911-02", date: "2026-09-11", account_id: "6318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 992 },
+    { id: "FEE-6318-20260911-03", date: "2026-09-11", account_id: "6318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 24 },
+    { id: "FEE-6318-20260909-01", date: "2026-09-09", account_id: "6318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
+    { id: "FEE-6318-20260909-02", date: "2026-09-09", account_id: "6318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 1000 },
+    { id: "FEE-6318-20260909-03", date: "2026-09-09", account_id: "6318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 24 },
+    { id: "TX-6318-20260904-01", date: "2026-09-04", account_id: "6318", target_name: "BGTPI025東方匯理實質收息多重資產-AD", currency: "TWD", type: "申購", units: 50347.440667, price: 9.8900, total_amount: 497936 },
+    { id: "TX-2318-20260904-02", date: "2026-09-04", account_id: "2318", target_name: "TCTPL003台灣股市50精選( 3 )", currency: "TWD", type: "申購", units: 3044.95306, price: 62.5155, total_amount: 190357 },
+    { id: "TX-2318-20260904-03", date: "2026-09-04", account_id: "2318", target_name: "BGTCB002中信科技趨勢多重資產-臺幣B", currency: "TWD", type: "申購", units: 15428.423964, price: 12.4001, total_amount: 191314 },
+    { id: "FEE-2318-20260825-01", date: "2026-08-25", account_id: "2318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
+    { id: "FEE-2318-20260825-02", date: "2026-08-25", account_id: "2318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 3881 },
+    { id: "FEE-2318-20260825-03", date: "2026-08-25", account_id: "2318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 99 },
+    { id: "FEE-9318-20260820-01", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
+    { id: "FEE-9318-20260820-02", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 2000 },
+    { id: "FEE-9318-20260820-03", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 47 },
+    { id: "FEE-9318-20260820-04", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
+    { id: "FEE-9318-20260820-05", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 1996 },
+    { id: "FEE-9318-20260820-06", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 48 },
+    { id: "TX-9318-20260817-01", date: "2026-08-17", account_id: "9318", target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)", currency: "TWD", type: "申購", units: 150690.823657, price: 6.6399, total_amount: 1000572 },
+    { id: "DIV-2318-20260731-01", date: "2026-07-31", account_id: "2318", target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)", type: "配息", payment_method: "銀行轉帳", units: 293221.345622, price: 0.05, total_amount: 14661 },
     { id: "FEE-2318-20260723-01", date: "2026-07-23", account_id: "2318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
     { id: "FEE-2318-20260723-02", date: "2026-07-23", account_id: "2318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 3974 },
     { id: "FEE-2318-20260723-03", date: "2026-07-23", account_id: "2318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 95 },
@@ -113,12 +142,8 @@ const fallbackData = {
     { id: "FEE-2318-20260702-04", date: "2026-07-02", account_id: "2318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
     { id: "FEE-2318-20260702-05", date: "2026-07-02", account_id: "2318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 4000 },
     { id: "FEE-2318-20260702-06", date: "2026-07-02", account_id: "2318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 95 },
-    { id: "FEE-9318-20260820-01", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
-    { id: "FEE-9318-20260820-02", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 2000 },
-    { id: "FEE-9318-20260820-03", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 47 },
-    { id: "FEE-9318-20260820-04", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
-    { id: "FEE-9318-20260820-05", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 1996 },
-    { id: "FEE-9318-20260820-06", date: "2026-08-20", account_id: "9318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 48 }
+    { id: "DIV-2318-20260630-01", date: "2026-06-30", account_id: "2318", target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)", type: "配息", payment_method: "銀行轉帳", units: 293837.860957, price: 0.05, total_amount: 14692 },
+    { id: "TX-2318-20260629-01", date: "2026-06-29", account_id: "2318", target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)", currency: "TWD", type: "申購", units: 295073.887267, price: 6.7806, total_amount: 2000778 }
   ],
   fundDetails: {
     fund_code: "BGTPB022",
@@ -278,6 +303,8 @@ function renderSummary() {
   // Account Card Values
   const acc1 = data.accounts.find(a => a.account_id === '2318');
   const acc2 = data.accounts.find(a => a.account_id === '9318');
+  const acc3 = data.accounts.find(a => a.account_id === '6318');
+
   if (acc1) {
     const acc1ValEl = document.getElementById('acc1Valuation');
     if (acc1ValEl) acc1ValEl.textContent = '$' + acc1.current_balance.toLocaleString();
@@ -292,6 +319,16 @@ function renderSummary() {
     const acc2FeeEl = document.getElementById('acc2Deductions');
     if (acc2FeeEl) acc2FeeEl.textContent = '-$' + acc2.total_deductions.toLocaleString() + ' TWD';
   }
+  if (acc3) {
+    const acc3ValEl = document.getElementById('acc3Valuation');
+    if (acc3ValEl) acc3ValEl.textContent = '$' + acc3.current_balance.toLocaleString();
+    const acc3DeathEl = document.getElementById('acc3DeathBenefit');
+    if (acc3DeathEl) acc3DeathEl.textContent = '$' + acc3.life_death_benefit.toLocaleString();
+    const acc3FeeEl = document.getElementById('acc3Deductions');
+    if (acc3FeeEl) acc3FeeEl.textContent = '-$' + acc3.total_deductions.toLocaleString() + ' TWD';
+    const acc3DivEl = document.getElementById('acc3Dividends');
+    if (acc3DivEl) acc3DivEl.textContent = '+$' + acc3.total_dividends.toLocaleString() + ' TWD';
+  }
 }
 
 // Render Chart.js Visualizations (Light Theme Palette)
@@ -299,31 +336,34 @@ function renderCharts() {
   const data = appState.accountsData;
   if (!data) return;
 
-  const acc1 = data.accounts.find(a => a.account_id === '2318');
-  const acc2 = data.accounts.find(a => a.account_id === '9318');
+  const activeAccounts = data.accounts.filter(a => a.status === 'active');
+  const accLabels = activeAccounts.map(a => `${a.name} (${a.account_id})`);
+  const initialData = activeAccounts.map(a => a.initial_amount || 0);
+  const valData = activeAccounts.map(a => a.current_balance || 0);
+  const divData = activeAccounts.map(a => a.total_dividends || 0);
 
-  // Chart 1: Dual Account Comparison (Bar)
+  // Chart 1: Triple Account Comparison (Bar)
   const ctxComparison = document.getElementById('comparisonChart').getContext('2d');
   new Chart(ctxComparison, {
     type: 'bar',
     data: {
-      labels: ['帳戶 1 (2318)', '帳戶 2 (9318)'],
+      labels: accLabels,
       datasets: [
         {
           label: '投入本金 (TWD)',
-          data: [acc1 ? acc1.initial_amount : 2000000, acc2 ? acc2.initial_amount : 1000000],
+          data: initialData,
           backgroundColor: '#3b82f6',
           borderRadius: 4
         },
         {
           label: '目前估值 (TWD)',
-          data: [acc1 ? acc1.current_balance : 1912218, acc2 ? acc2.current_balance : 983318],
+          data: valData,
           backgroundColor: '#d97706',
           borderRadius: 4
         },
         {
           label: '累積配息 (TWD)',
-          data: [acc1 ? acc1.total_dividends : 29353, acc2 ? acc2.total_dividends : 0],
+          data: divData,
           backgroundColor: '#059669',
           borderRadius: 4
         }
@@ -356,24 +396,28 @@ function renderCharts() {
   });
 
   // Chart 2: Asset Allocation (Doughnut) - Breakdown of holdings
+  const holdingsLabels = [];
+  const holdingsData = [];
+  const colorPalette = ['#d97706', '#059669', '#2563eb', '#7c3aed', '#0891b2', '#db2777', '#ca8a04'];
+
+  activeAccounts.forEach(acc => {
+    (acc.holdings || []).forEach(h => {
+      const val = h.current_valuation || 0;
+      const shortName = h.target_name.split(' - ')[0].replace(/^BGT[A-Z0-9]+/, '');
+      const amtWan = (val / 10000).toFixed(1);
+      holdingsLabels.push(`${acc.name} - ${shortName} (NT$ ${amtWan}萬)`);
+      holdingsData.push(val);
+    });
+  });
+
   const ctxAllocation = document.getElementById('allocationChart').getContext('2d');
   new Chart(ctxAllocation, {
     type: 'doughnut',
     data: {
-      labels: [
-        '帳戶 1 - 柏瑞特別收益-B (NT$ 152.7萬)',
-        '帳戶 1 - 台灣股市50精選(3) (NT$ 19.3萬)',
-        '帳戶 1 - 中信科技趨勢-臺幣B (NT$ 19.1萬)',
-        '帳戶 2 - 柏瑞特別收益-B (NT$ 98.3萬)'
-      ],
+      labels: holdingsLabels,
       datasets: [{
-        data: [1527491, 193413, 191314, 983318],
-        backgroundColor: [
-          '#d97706',
-          '#059669',
-          '#2563eb',
-          '#7c3aed'
-        ],
+        data: holdingsData,
+        backgroundColor: colorPalette.slice(0, holdingsData.length),
         borderColor: '#ffffff',
         borderWidth: 2
       }]
@@ -384,7 +428,7 @@ function renderCharts() {
       plugins: {
         legend: {
           position: 'bottom',
-          labels: { color: '#334155', padding: 12, font: { family: 'Plus Jakarta Sans', size: 10.5, weight: '600' } }
+          labels: { color: '#334155', padding: 10, font: { family: 'Plus Jakarta Sans', size: 10.5, weight: '600' } }
         },
         tooltip: {
           callbacks: {
@@ -396,7 +440,7 @@ function renderCharts() {
           }
         }
       },
-      cutout: '65%'
+      cutout: '62%'
     }
   });
 }

@@ -2,6 +2,121 @@
   "client": "sun",
   "transactions": [
     {
+      "id": "DIV-6318-20260915-01",
+      "date": "2026-09-15",
+      "record_date": "2026-09-15",
+      "payout_date": "2026-09-15",
+      "account_id": "6318",
+      "target_name": "BGTPI025東方匯理實質收息多重資產證券投資信託基金-AD 月配型(新臺幣) - (配現金)",
+      "full_target_name": "BGTPI025東方匯理實質收息多重資產證券投資信託基金-AD 月配型(新臺幣) - (配現金)(本基金之配息來源可能為本金)",
+      "type": "配息",
+      "payment_method": "現金入帳",
+      "target_units": 50347.440667,
+      "dividend_per_unit": 0.0576,
+      "currency": "TWD",
+      "exchange_rate": 1,
+      "total_amount": 2900
+    },
+    {
+      "id": "FEE-6318-20260911-01",
+      "date": "2026-09-11",
+      "account_id": "6318",
+      "type": "扣款",
+      "item": "保單管理費/保單管理費之行政管理費",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 100
+    },
+    {
+      "id": "FEE-6318-20260911-02",
+      "date": "2026-09-11",
+      "account_id": "6318",
+      "type": "扣款",
+      "item": "標的維護費/保單管理費/保單管理費之帳戶管理費",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 992
+    },
+    {
+      "id": "FEE-6318-20260911-03",
+      "date": "2026-09-11",
+      "account_id": "6318",
+      "type": "扣款",
+      "item": "保險成本",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 24
+    },
+    {
+      "id": "FEE-6318-20260909-01",
+      "date": "2026-09-09",
+      "account_id": "6318",
+      "type": "扣款",
+      "item": "保單管理費/保單管理費之行政管理費",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 100
+    },
+    {
+      "id": "FEE-6318-20260909-02",
+      "date": "2026-09-09",
+      "account_id": "6318",
+      "type": "扣款",
+      "item": "標的維護費/保單管理費/保單管理費之帳戶管理費",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 1000
+    },
+    {
+      "id": "FEE-6318-20260909-03",
+      "date": "2026-09-09",
+      "account_id": "6318",
+      "type": "扣款",
+      "item": "保險成本",
+      "summary": "保險相關費用",
+      "currency": "TWD",
+      "amount": 24
+    },
+    {
+      "id": "TX-6318-20260904-01",
+      "date": "2026-09-04",
+      "account_id": "6318",
+      "target_name": "BGTPI025東方匯理實質收息多重資產證券投資信託基金-AD 月配型(新臺幣) - (配現金)",
+      "full_target_name": "BGTPI025東方匯理實質收息多重資產證券投資信託基金-AD 月配型(新臺幣) - (配現金)(本基金之配息來源可能為本金)",
+      "currency": "TWD",
+      "type": "申購",
+      "units": 50347.440667,
+      "price": 9.8900,
+      "exchange_rate": 1,
+      "total_amount": 497936
+    },
+    {
+      "id": "TX-2318-20260904-02",
+      "date": "2026-09-04",
+      "account_id": "2318",
+      "target_name": "TCTPL003台灣股市50精選( 3 )",
+      "full_target_name": "TCTPL003台灣股市50精選( 3 )",
+      "currency": "TWD",
+      "type": "申購",
+      "units": 3044.95306,
+      "price": 62.5155,
+      "exchange_rate": 1,
+      "total_amount": 190357
+    },
+    {
+      "id": "TX-2318-20260904-03",
+      "date": "2026-09-04",
+      "account_id": "2318",
+      "target_name": "BGTCB002中國信託科技趨勢多重資產基金-臺幣B - (配現金)",
+      "full_target_name": "BGTCB002中國信託科技趨勢多重資產基金-臺幣B - (配現金)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "currency": "TWD",
+      "type": "申購",
+      "units": 15428.423964,
+      "price": 12.4001,
+      "exchange_rate": 1,
+      "total_amount": 191314
+    },
+    {
       "id": "FEE-2318-20260825-01",
       "date": "2026-08-25",
       "account_id": "2318",
@@ -106,6 +221,7 @@
     },
     {
       "id": "DIV-2318-20260731-01",
+      "date": "2026-07-31",
       "record_date": "2026-07-31",
       "payout_date": "2026-08-12",
       "account_id": "2318",
@@ -210,6 +326,7 @@
     },
     {
       "id": "DIV-2318-20260630-01",
+      "date": "2026-06-30",
       "record_date": "2026-06-30",
       "payout_date": "2026-07-15",
       "account_id": "2318",

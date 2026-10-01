@@ -4,6 +4,7 @@
   "accounts": [
     {
       "account_id": "2318",
+      "policy_number": "000038039672318",
       "name": "帳戶1",
       "initial_amount": 2000000,
       "current_balance": 1897755,
@@ -58,6 +59,7 @@
     },
     {
       "account_id": "9318",
+      "policy_number": "000038258569318",
       "name": "帳戶2",
       "initial_amount": 1000000,
       "current_balance": 970554,
@@ -83,20 +85,39 @@
       ]
     },
     {
-      "account_id": "TBD",
+      "account_id": "6318",
+      "policy_number": "000038480696318",
       "name": "帳戶3",
-      "initial_amount": null,
-      "current_balance": null,
-      "total_deductions": 0,
-      "total_dividends": 0,
-      "start_date": null,
-      "status": "pending_setup",
-      "holdings": []
+      "initial_amount": 500000,
+      "current_balance": 484846,
+      "total_deductions": 2240,
+      "total_dividends": 2900,
+      "valuation_date": "2026-09-24",
+      "basic_sum_insured": 700000,
+      "life_death_benefit": 697100,
+      "start_date": "2026-08-10",
+      "status": "active",
+      "holdings": [
+        {
+          "target_code": "BGTPI025",
+          "target_name": "東方匯理實質收息多重資產證券投資信託基金-AD 月配型(新臺幣) - (配現金)",
+          "units": 50347.440667,
+          "avg_price": 9.8900,
+          "avg_dividend_cost": 9.8317,
+          "latest_price": 9.6300,
+          "price_date": "2026-09-24",
+          "cost_amount": 497936,
+          "current_valuation": 484846,
+          "return_rate": -2.6289,
+          "dividend_return_rate": -2.0515
+        }
+      ]
     }
   ],
-  "total_initial_amount": 3000000,
-  "total_current_valuation": 2868309,
-  "total_deductions": 20921,
-  "total_dividends": 29353,
-  "last_updated": "2026-10-01T09:00:00+08:00"
+  "total_initial_amount": 3500000,
+  "total_current_valuation": 3353155,
+  "total_deductions": 23161,
+  "total_dividends": 32253,
+  "total_life_death_benefit": 4867747,
+  "last_updated": "2026-10-01T09:18:00+08:00"
 }
