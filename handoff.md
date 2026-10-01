@@ -36,4 +36,4 @@
 - 時間：2026-10-01 13:15
 - 更新者：Antigravity @ M3-Air---garfiwang-3
 - 最新進度：帳戶 3 (6318) 確立 80/10/10 再平衡決策（80% 東方匯理 + 10% 台灣50 + 10% 中信科技），完成 AI 估值與美債 5% 風險實質測算，更新 accounts/sun_portfolio.md 與 AGENTS.md。
-- Git push：待推
+- Git push：✅ 已推 (main & gh-pages)
