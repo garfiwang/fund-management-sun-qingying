@@ -7,27 +7,27 @@
       "policy_number": "000038039672318",
       "name": "帳戶1",
       "initial_amount": 2000000,
-      "current_balance": 1897755,
-      "total_deductions": 16630,
-      "total_dividends": 29353,
-      "valuation_date": "2026-09-24",
+      "current_balance": 1890760,
+      "total_deductions": 20655,
+      "total_dividends": 43983,
+      "valuation_date": "2026-09-29",
       "basic_sum_insured": 2800000,
-      "life_death_benefit": 2770647,
+      "life_death_benefit": 2754320,
       "start_date": "2026-05-22",
       "status": "active",
       "holdings": [
         {
           "target_code": "BGTPB022",
           "target_name": "柏瑞多重資產特別收益基金-B類型 - (配現金)",
-          "units": 234083.83887,
+          "units": 233463.892778,
           "avg_price": 6.7806,
-          "avg_dividend_cost": 6.6815,
-          "latest_price": 6.4407,
-          "price_date": "2026-09-23",
-          "cost_amount": 1587229,
-          "current_valuation": 1507664,
-          "return_rate": -5.0128,
-          "dividend_return_rate": -3.6040
+          "avg_dividend_cost": 6.6199,
+          "latest_price": 6.4161,
+          "price_date": "2026-09-24",
+          "cost_amount": 1583025,
+          "current_valuation": 1497928,
+          "return_rate": -5.3756,
+          "dividend_return_rate": -3.0786
         },
         {
           "target_code": "TCTPL003",
@@ -35,25 +35,25 @@
           "units": 3044.95306,
           "avg_price": 62.5155,
           "avg_dividend_cost": 62.5155,
-          "latest_price": 63.5192,
-          "price_date": "2026-09-08",
+          "latest_price": 64.4194,
+          "price_date": "2026-09-29",
           "cost_amount": 190357,
-          "current_valuation": 193413,
-          "return_rate": 1.6055,
-          "dividend_return_rate": 1.6055
+          "current_valuation": 196154,
+          "return_rate": 3.0454,
+          "dividend_return_rate": 3.0454
         },
         {
           "target_code": "BGTCB002",
           "target_name": "中國信託科技趨勢多重資產基金-臺幣B - (配現金)",
           "units": 15428.423964,
           "avg_price": 12.4001,
-          "avg_dividend_cost": 12.4001,
+          "avg_dividend_cost": 12.2888,
           "latest_price": 12.7478,
           "price_date": "2026-09-24",
           "cost_amount": 191314,
           "current_valuation": 196678,
           "return_rate": 2.8040,
-          "dividend_return_rate": 2.8040
+          "dividend_return_rate": 3.7351
         }
       ]
     },
@@ -117,9 +117,9 @@
     }
   ],
   "total_initial_amount": 3500000,
-  "total_current_valuation": 3343233,
-  "total_deductions": 25294,
-  "total_dividends": 39739,
-  "total_life_death_benefit": 4860261,
-  "last_updated": "2026-10-01T09:27:00+08:00"
+  "total_current_valuation": 3336238,
+  "total_deductions": 29319,
+  "total_dividends": 54369,
+  "total_life_death_benefit": 4843934,
+  "last_updated": "2026-10-01T09:35:00+08:00"
 }
