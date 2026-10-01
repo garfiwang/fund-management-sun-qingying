@@ -6,10 +6,10 @@
       "account_id": "2318",
       "name": "帳戶1",
       "initial_amount": 2000000,
-      "current_balance": 1912218,
+      "current_balance": 1897755,
       "total_deductions": 16630,
       "total_dividends": 29353,
-      "valuation_date": "2026-09-08",
+      "valuation_date": "2026-09-24",
       "basic_sum_insured": 2800000,
       "life_death_benefit": 2770647,
       "start_date": "2026-05-22",
@@ -21,12 +21,12 @@
           "units": 234083.83887,
           "avg_price": 6.7806,
           "avg_dividend_cost": 6.6815,
-          "latest_price": 6.5254,
-          "price_date": "2026-09-04",
+          "latest_price": 6.4407,
+          "price_date": "2026-09-23",
           "cost_amount": 1587229,
-          "current_valuation": 1527491,
-          "return_rate": -3.7637,
-          "dividend_return_rate": -2.3363
+          "current_valuation": 1507664,
+          "return_rate": -5.0128,
+          "dividend_return_rate": -3.6040
         },
         {
           "target_code": "TCTPL003",
@@ -47,12 +47,12 @@
           "units": 15428.423964,
           "avg_price": 12.4001,
           "avg_dividend_cost": 12.4001,
-          "latest_price": 12.4001,
-          "price_date": "2026-09-04",
+          "latest_price": 12.7478,
+          "price_date": "2026-09-24",
           "cost_amount": 191314,
-          "current_valuation": 191314,
-          "return_rate": 0.0,
-          "dividend_return_rate": 0.0
+          "current_valuation": 196678,
+          "return_rate": 2.8040,
+          "dividend_return_rate": 2.8040
         }
       ]
     },
@@ -60,10 +60,10 @@
       "account_id": "9318",
       "name": "帳戶2",
       "initial_amount": 1000000,
-      "current_balance": 983318,
+      "current_balance": 970554,
       "total_deductions": 4291,
       "total_dividends": 0,
-      "valuation_date": "2026-09-04",
+      "valuation_date": "2026-09-23",
       "basic_sum_insured": 1400000,
       "life_death_benefit": 1400000,
       "start_date": "2026-06-30",
@@ -74,9 +74,11 @@
           "target_name": "柏瑞多重資產特別收益基金-B類型 - (配現金)",
           "units": 150690.823657,
           "avg_price": 6.6399,
-          "latest_price": 6.5254,
+          "latest_price": 6.4407,
+          "price_date": "2026-09-23",
           "cost_amount": 1000572,
-          "current_valuation": 983318
+          "current_valuation": 970554,
+          "return_rate": -3.0000
         }
       ]
     },
@@ -93,8 +95,8 @@
     }
   ],
   "total_initial_amount": 3000000,
-  "total_current_valuation": 2895536,
+  "total_current_valuation": 2868309,
   "total_deductions": 20921,
   "total_dividends": 29353,
-  "last_updated": "2026-09-09T22:50:00+08:00"
+  "last_updated": "2026-10-01T09:00:00+08:00"
 }
