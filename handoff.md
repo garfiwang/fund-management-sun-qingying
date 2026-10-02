@@ -34,7 +34,7 @@
 - ⚖️ 富蘭克林華美多重資產收益研究頁：`https://garfiwang.github.io/fund-management-sun-qingying/ftft_multi_asset_research.html`
 
 ## 🕐 最後更新
-- 時間：2026-10-02 09:55
+- 時間：2026-10-02 10:07
 - 更新者：Antigravity @ M3-Air---garfiwang-3
-- 最新進度：成功新增第 8 檔追蹤基金「富蘭克林華美多重資產收益基金-分配型」，建立 ftft_multi_details.json、建置獨立研究頁面並完成 GitHub Pages 自動化上線。
+- 最新進度：已核對並全面校正第 8 檔基金為官方規格「富蘭克林華美多重資產收益基金-新台幣(分配型)」，更新投信代碼 004023、官方 ISIN TW000T4518B2 與全域標題。
 - Git push：✅ 已推 (main & gh-pages)
