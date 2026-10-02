@@ -15,7 +15,7 @@
   - [x] 記錄並計算帳戶 1 (2318) & 帳戶 2 (9318) 操作明細、扣款費用與即時績效
   - [x] 雙帳戶綜合理理財儀錶板與 GitHub Pages 發布網頁建置 (含基金 30天淨值與持股研究)
   - [x] 依使用者需求全數移除中國地產國企基金追蹤、資料集與連結
-  - [x] 精選 7 檔關注基金最新淨值動態追蹤與帳戶估值連動 (更新至 2026/09/24 最新淨值)
+  - [x] 精選 8 檔關注基金最新淨值動態追蹤與帳戶估值連動 (新增富蘭克林華美多重資產收益基金)
   - [x] 補充建置帳戶 3 (6318) 詳細資料、保單資訊、持股配置與扣款明細
   - [x] 三大帳戶綜合財務儀錶板、資產配置圓餅圖與交易紀錄連動更新
   - [x] 三大帳戶（2318、9318、6318）最新官方對帳單數據、配息與扣款明細全面精確校對與同步更新
@@ -38,6 +38,8 @@
 ├── amundi_real_income_research.html
 ├── yuanta_reits_research.html
 ├── ctbc_tech_research.html
+├── ftft_multi_asset_research.html
+├── ftft_multi_asset_research.js
 ├── 三大基金投資研究報告.md
 ├── 四檔新基金投資研究報告.md
 ├── styles.css
@@ -53,6 +55,7 @@
     ├── nomura_fin_details.json
     ├── nomura_multi_details.json
     ├── yuanta_reits_details.json
+    ├── ftft_multi_details.json
     └── transactions.json
 ```
 
