@@ -1,0 +1,67 @@
+{
+  "fund_code": "TW000T3933B9",
+  "fund_name": "富蘭克林華美多重資產收益基金 - (分配型 - 配現金)",
+  "isin": "TW000T3933B9",
+  "currency": "TWD",
+  "risk_level": "RR3",
+  "inception_date": "2016-05-18",
+  "dividend_frequency": "月配息",
+  "latest_dividend_per_unit": 0.045,
+  "latest_nav": 8.6900,
+  "latest_nav_date": "2026-09-30",
+  "subscription_price": 8.7500,
+  "subscription_date": "2026-06-29",
+  "nav_30_days": [
+    { "date": "2026/09/30", "nav": 8.6900, "change": 0.0150 },
+    { "date": "2026/09/29", "nav": 8.6750, "change": -0.0120 },
+    { "date": "2026/09/28", "nav": 8.6870, "change": 0.0220 },
+    { "date": "2026/09/25", "nav": 8.6650, "change": 0.0180 },
+    { "date": "2026/09/24", "nav": 8.6470, "change": -0.0250 },
+    { "date": "2026/09/23", "nav": 8.6720, "change": 0.0150 },
+    { "date": "2026/09/22", "nav": 8.6570, "change": 0.0200 },
+    { "date": "2026/09/19", "nav": 8.6370, "change": -0.0350 },
+    { "date": "2026/09/18", "nav": 8.6720, "change": 0.0180 },
+    { "date": "2026/09/17", "nav": 8.6540, "change": 0.0120 },
+    { "date": "2026/09/16", "nav": 8.6420, "change": -0.0220 },
+    { "date": "2026/09/15", "nav": 8.6640, "change": -0.0380 },
+    { "date": "2026/09/12", "nav": 8.7020, "change": -0.0080 },
+    { "date": "2026/09/11", "nav": 8.7100, "change": 0.0150 },
+    { "date": "2026/09/10", "nav": 8.6950, "change": 0.0200 },
+    { "date": "2026/09/09", "nav": 8.6750, "change": 0.0100 },
+    { "date": "2026/09/08", "nav": 8.6650, "change": -0.0250 },
+    { "date": "2026/09/05", "nav": 8.6900, "change": -0.0150 },
+    { "date": "2026/09/04", "nav": 8.7050, "change": 0.0100 },
+    { "date": "2026/09/03", "nav": 8.6950, "change": -0.0120 },
+    { "date": "2026/09/02", "nav": 8.7070, "change": -0.0080 },
+    { "date": "2026/09/01", "nav": 8.7150, "change": -0.0050 }
+  ],
+  "yearly_nav_summary": [
+    { "year": "2024", "nav_range": "8.10 - 8.95 元", "dividend_note": "月配 NT$ 0.045 / 單位", "description": "雙重平衡動態調整，隨全球股債市場反彈獲取穩健收益" },
+    { "year": "2025", "nav_range": "8.40 - 9.10 元", "dividend_note": "月配 NT$ 0.045 / 單位", "description": "高股息股票與高收益債發揮底盤防禦，淨值持穩於高檔" },
+    { "year": "2026 (至今)", "nav_range": "8.55 - 8.90 元", "dividend_note": "月配 NT$ 0.045 / 單位", "description": "截至 9 月最新約 8.6900 元，整體走勢與息收皆表現平穩" }
+  ],
+  "top_holdings": [
+    { "rank": 1, "name": "美國高股息龍頭股票組合 (US High Dividend Equity)", "type": "高股息股票", "country": "美國", "weight": "22.50%" },
+    { "rank": 2, "name": "全球高收益公司債券組合 (Global High Yield Bonds)", "type": "高收益債", "country": "全球", "weight": "35.00%" },
+    { "rank": 3, "name": "投資級企業債券組合 (US IG Corporate Bonds)", "type": "投資級公司債", "country": "美國", "weight": "15.00%" },
+    { "rank": 4, "name": "微軟 Microsoft Corp (MSFT)", "type": "科技高股息股", "country": "美國", "weight": "4.20%" },
+    { "rank": 5, "name": "博通 Broadcom Inc (AVGO)", "type": "網通高股息股", "country": "美國", "weight": "3.80%" },
+    { "rank": 6, "name": "蘋果 Apple Inc (AAPL)", "type": "消費科技股", "country": "美國", "weight": "3.20%" },
+    { "rank": 7, "name": "禮來 Eli Lilly & Co (LLY)", "type": "生技醫療股", "country": "美國", "weight": "2.80%" },
+    { "rank": 8, "name": "金融機構特別股與永續債", "type": "金融特別股", "country": "美國", "weight": "7.00%" },
+    { "rank": 9, "name": "台灣半導體與高股息供應鏈", "type": "台股高股息", "country": "台灣", "weight": "3.50%" },
+    { "rank": 10, "name": "歐洲優質公司債券", "type": "投資級債券", "country": "歐洲", "weight": "3.00%" }
+  ],
+  "regions": [
+    { "region": "美洲地區 (United States)", "flag": "🇺🇸", "weight": "68.0%", "desc": "佈局美股高股息龍頭、高收益公司債與投資級債" },
+    { "region": "歐洲地區 (Europe)", "flag": "🇪🇺", "weight": "18.0%", "desc": "配置歐洲優質公司債與基礎建設息收標的" },
+    { "region": "亞太與台灣 (Asia & Taiwan)", "flag": "🇹🇼", "weight": "9.0%", "desc": "台灣半導體供應鏈高股息標的與亞洲優質債" },
+    { "region": "現金與貨幣市場預備", "flag": "💵", "weight": "5.0%", "desc": "動態風險調控與月配息資金準備" }
+  ],
+  "asset_allocation": [
+    { "category": "收益型高收益公司債 (High Yield Bonds)", "icon": "fa-shield-halved", "weight": "35.0%", "desc": "提供穩健的核心息收，為基金打造防禦底盤" },
+    { "category": "高股息股票與ETF (High Dividend Equities)", "icon": "fa-chart-line", "weight": "35.0%", "desc": "追求資本成長兼具股息防禦，聚焦 AI、美股與台股龍頭" },
+    { "category": "投資級債與特別股 (IG Bonds & Preferreds)", "icon": "fa-building-columns", "weight": "22.0%", "desc": "提供信用安全屏障，降抵市場波動風險" },
+    { "category": "現金及流動資產 (Cash)", "icon": "fa-coins", "weight": "8.0%", "desc": "動態靈活調整部位與流動性準備" }
+  ]
+}

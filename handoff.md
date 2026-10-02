@@ -25,15 +25,16 @@
 ## ➡️ 下一步
 1. 待使用者/客戶執行帳戶 3 保單線上轉換後，取得實際成交單位數與單價，更新 `data/accounts.json`、`data/transactions.json` 與總儀錶板。
 2. 評估帳戶 2 (9318) 是否跟進導入再平衡（如導入野村全球金融收益 RR2 或 80/10/10 衛星）。
-3. 定期追蹤 7 檔精選標的 10 月初最新淨值與各帳戶最新一期配息入帳情況。
+3. 定期追蹤全 8 檔精選標的 10 月最新淨值與各帳戶最新一期配息入帳情況。
 
 ## ⚠️ 注意事項
 - 本專案位於 Google 雲端硬碟，請確保 Google 雲端硬碟桌面版同步完成。
 - GitHub Pages 主儀錶板：`https://garfiwang.github.io/fund-management-sun-qingying/`
-- 📊 精選 7 檔基金中心：`https://garfiwang.github.io/fund-management-sun-qingying/featured_funds.html`
+- 📊 精選 8 檔基金中心：`https://garfiwang.github.io/fund-management-sun-qingying/featured_funds.html`
+- ⚖️ 富蘭克林華美多重資產收益研究頁：`https://garfiwang.github.io/fund-management-sun-qingying/ftft_multi_asset_research.html`
 
 ## 🕐 最後更新
-- 時間：2026-10-01 13:15
+- 時間：2026-10-02 09:55
 - 更新者：Antigravity @ M3-Air---garfiwang-3
-- 最新進度：帳戶 3 (6318) 確立 80/10/10 再平衡決策（80% 東方匯理 + 10% 台灣50 + 10% 中信科技），完成 AI 估值與美債 5% 風險實質測算，更新 accounts/sun_portfolio.md 與 AGENTS.md。
+- 最新進度：成功新增第 8 檔追蹤基金「富蘭克林華美多重資產收益基金-分配型」，建立 ftft_multi_details.json、建置獨立研究頁面並完成 GitHub Pages 自動化上線。
 - Git push：✅ 已推 (main & gh-pages)
