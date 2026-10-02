@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   await loadFundDetails();
   renderQuickMetrics();
   render30DayChartAndTable();
+  renderDividendHistoryTable();
   renderHoldingsTable();
   renderAllocations();
   renderYearlySummary();
@@ -136,6 +137,31 @@ function render30DayChartAndTable() {
   }
 }
 
+function renderDividendHistoryTable() {
+  if (!fundData || !fundData.dividend_history_2026) return;
+  const tbody = document.getElementById('dividendTableBodyPage');
+  if (!tbody) return;
+  tbody.innerHTML = '';
+
+  fundData.dividend_history_2026.forEach(item => {
+    const tr = document.createElement('tr');
+    const yieldNum = parseFloat(item.yield_rate);
+    const annualizedYield = (yieldNum * 12).toFixed(2);
+
+    tr.innerHTML = `
+      <td style="font-weight:700;">${item.record_date}</td>
+      <td style="color:var(--text-secondary);">${item.ex_date}</td>
+      <td style="color:var(--text-secondary);">${item.pay_date}</td>
+      <td><span class="badge-tx dividend" style="font-size:0.75rem; font-weight:700;">${item.status}</span></td>
+      <td style="font-weight:800; text-align:right; color:#16a34a; font-size:0.92rem;">NT$ ${item.amount.toFixed(3)}</td>
+      <td style="font-weight:700; text-align:right; color:var(--text-primary);">${item.yield_rate}</td>
+      <td style="font-weight:800; text-align:right; color:#16a34a;">~ ${annualizedYield}%</td>
+      <td style="text-align:center;"><span class="badge-tx buy" style="font-size:0.75rem;">${item.currency}</span></td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
 function renderHoldingsTable() {
   if (!fundData || !fundData.top_holdings) return;
   const tbody = document.getElementById('holdingsTableBodyPage');
@@ -238,6 +264,7 @@ function setupTabListeners() {
       });
 
       if (targetTab === 'nav30') document.getElementById('fundTabNav30').classList.add('active');
+      if (targetTab === 'dividends') document.getElementById('fundTabDividends').classList.add('active');
       if (targetTab === 'holdings') document.getElementById('fundTabHoldings').classList.add('active');
       if (targetTab === 'allocation') document.getElementById('fundTabAllocation').classList.add('active');
       if (targetTab === 'history') document.getElementById('fundTabHistory').classList.add('active');
