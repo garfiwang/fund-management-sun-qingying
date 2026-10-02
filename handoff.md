@@ -39,4 +39,4 @@
 - 時間：2026-10-02 10:15
 - 更新者：Antigravity @ M3-Air---garfiwang-3
 - 最新進度：完成富蘭克林華美多重資產深度分析；完成帳戶 2 降柏瑞至 60% 之現金流與折價實現風險測算；使用者決定暫緩思考；更新 accounts/sun_portfolio.md。
-- Git push：待推
+- Git push：✅ 已推 (main & gh-pages)
