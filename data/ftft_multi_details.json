@@ -21,70 +21,334 @@
   "dividend_frequency": "月配",
   "latest_dividend_per_unit": 0.072,
   "latest_dividend_yield": "0.84%",
-  "latest_nav": 8.6900,
-  "latest_nav_date": "2026-09-30",
-  "subscription_price": 8.7500,
+  "latest_nav": 8.7,
+  "latest_nav_date": "2026-10-13",
+  "subscription_price": 8.75,
   "subscription_date": "2026-06-29",
   "dividend_history_2026": [
-    { "record_date": "2026/08/31", "ex_date": "2026/09/01", "pay_date": "2026/09/11", "status": "配息", "amount": 0.072, "yield_rate": "0.84%", "currency": "台幣" },
-    { "record_date": "2026/07/31", "ex_date": "2026/08/03", "pay_date": "2026/08/12", "status": "配息", "amount": 0.071, "yield_rate": "0.83%", "currency": "台幣" },
-    { "record_date": "2026/06/30", "ex_date": "2026/07/01", "pay_date": "2026/07/14", "status": "配息", "amount": 0.079, "yield_rate": "0.84%", "currency": "台幣" },
-    { "record_date": "2026/05/29", "ex_date": "2026/06/01", "pay_date": "2026/06/10", "status": "配息", "amount": 0.076, "yield_rate": "0.83%", "currency": "台幣" },
-    { "record_date": "2026/05/04", "ex_date": "2026/05/05", "pay_date": "2026/05/14", "status": "配息", "amount": 0.072, "yield_rate": "0.83%", "currency": "台幣" },
-    { "record_date": "2026/03/31", "ex_date": "2026/04/01", "pay_date": "2026/04/14", "status": "配息", "amount": 0.064, "yield_rate": "0.83%", "currency": "台幣" },
-    { "record_date": "2026/02/26", "ex_date": "2026/03/02", "pay_date": "2026/03/11", "status": "配息", "amount": 0.066, "yield_rate": "0.83%", "currency": "台幣" }
+    {
+      "record_date": "2026/08/31",
+      "ex_date": "2026/09/01",
+      "pay_date": "2026/09/11",
+      "status": "配息",
+      "amount": 0.072,
+      "yield_rate": "0.84%",
+      "currency": "台幣"
+    },
+    {
+      "record_date": "2026/07/31",
+      "ex_date": "2026/08/03",
+      "pay_date": "2026/08/12",
+      "status": "配息",
+      "amount": 0.071,
+      "yield_rate": "0.83%",
+      "currency": "台幣"
+    },
+    {
+      "record_date": "2026/06/30",
+      "ex_date": "2026/07/01",
+      "pay_date": "2026/07/14",
+      "status": "配息",
+      "amount": 0.079,
+      "yield_rate": "0.84%",
+      "currency": "台幣"
+    },
+    {
+      "record_date": "2026/05/29",
+      "ex_date": "2026/06/01",
+      "pay_date": "2026/06/10",
+      "status": "配息",
+      "amount": 0.076,
+      "yield_rate": "0.83%",
+      "currency": "台幣"
+    },
+    {
+      "record_date": "2026/05/04",
+      "ex_date": "2026/05/05",
+      "pay_date": "2026/05/14",
+      "status": "配息",
+      "amount": 0.072,
+      "yield_rate": "0.83%",
+      "currency": "台幣"
+    },
+    {
+      "record_date": "2026/03/31",
+      "ex_date": "2026/04/01",
+      "pay_date": "2026/04/14",
+      "status": "配息",
+      "amount": 0.064,
+      "yield_rate": "0.83%",
+      "currency": "台幣"
+    },
+    {
+      "record_date": "2026/02/26",
+      "ex_date": "2026/03/02",
+      "pay_date": "2026/03/11",
+      "status": "配息",
+      "amount": 0.066,
+      "yield_rate": "0.83%",
+      "currency": "台幣"
+    }
   ],
   "nav_30_days": [
-    { "date": "2026/09/30", "nav": 8.6900, "change": 0.0150 },
-    { "date": "2026/09/29", "nav": 8.6750, "change": -0.0120 },
-    { "date": "2026/09/28", "nav": 8.6870, "change": 0.0220 },
-    { "date": "2026/09/25", "nav": 8.6650, "change": 0.0180 },
-    { "date": "2026/09/24", "nav": 8.6470, "change": -0.0250 },
-    { "date": "2026/09/23", "nav": 8.6720, "change": 0.0150 },
-    { "date": "2026/09/22", "nav": 8.6570, "change": 0.0200 },
-    { "date": "2026/09/19", "nav": 8.6370, "change": -0.0350 },
-    { "date": "2026/09/18", "nav": 8.6720, "change": 0.0180 },
-    { "date": "2026/09/17", "nav": 8.6540, "change": 0.0120 },
-    { "date": "2026/09/16", "nav": 8.6420, "change": -0.0220 },
-    { "date": "2026/09/15", "nav": 8.6640, "change": -0.0380 },
-    { "date": "2026/09/12", "nav": 8.7020, "change": -0.0080 },
-    { "date": "2026/09/11", "nav": 8.7100, "change": 0.0150 },
-    { "date": "2026/09/10", "nav": 8.6950, "change": 0.0200 },
-    { "date": "2026/09/09", "nav": 8.6750, "change": 0.0100 },
-    { "date": "2026/09/08", "nav": 8.6650, "change": -0.0250 },
-    { "date": "2026/09/05", "nav": 8.6900, "change": -0.0150 },
-    { "date": "2026/09/04", "nav": 8.7050, "change": 0.0100 },
-    { "date": "2026/09/03", "nav": 8.6950, "change": -0.0120 },
-    { "date": "2026/09/02", "nav": 8.7070, "change": -0.0080 },
-    { "date": "2026/09/01", "nav": 8.7150, "change": -0.0050 }
+    {
+      "date": "2026/10/13",
+      "nav": 8.7,
+      "change": 0.01
+    },
+    {
+      "date": "2026/09/30",
+      "nav": 8.69,
+      "change": 0.015
+    },
+    {
+      "date": "2026/09/29",
+      "nav": 8.675,
+      "change": -0.012
+    },
+    {
+      "date": "2026/09/28",
+      "nav": 8.687,
+      "change": 0.022
+    },
+    {
+      "date": "2026/09/25",
+      "nav": 8.665,
+      "change": 0.018
+    },
+    {
+      "date": "2026/09/24",
+      "nav": 8.647,
+      "change": -0.025
+    },
+    {
+      "date": "2026/09/23",
+      "nav": 8.672,
+      "change": 0.015
+    },
+    {
+      "date": "2026/09/22",
+      "nav": 8.657,
+      "change": 0.02
+    },
+    {
+      "date": "2026/09/19",
+      "nav": 8.637,
+      "change": -0.035
+    },
+    {
+      "date": "2026/09/18",
+      "nav": 8.672,
+      "change": 0.018
+    },
+    {
+      "date": "2026/09/17",
+      "nav": 8.654,
+      "change": 0.012
+    },
+    {
+      "date": "2026/09/16",
+      "nav": 8.642,
+      "change": -0.022
+    },
+    {
+      "date": "2026/09/15",
+      "nav": 8.664,
+      "change": -0.038
+    },
+    {
+      "date": "2026/09/12",
+      "nav": 8.702,
+      "change": -0.008
+    },
+    {
+      "date": "2026/09/11",
+      "nav": 8.71,
+      "change": 0.015
+    },
+    {
+      "date": "2026/09/10",
+      "nav": 8.695,
+      "change": 0.02
+    },
+    {
+      "date": "2026/09/09",
+      "nav": 8.675,
+      "change": 0.01
+    },
+    {
+      "date": "2026/09/08",
+      "nav": 8.665,
+      "change": -0.025
+    },
+    {
+      "date": "2026/09/05",
+      "nav": 8.69,
+      "change": -0.015
+    },
+    {
+      "date": "2026/09/04",
+      "nav": 8.705,
+      "change": 0.01
+    },
+    {
+      "date": "2026/09/03",
+      "nav": 8.695,
+      "change": -0.012
+    },
+    {
+      "date": "2026/09/02",
+      "nav": 8.707,
+      "change": -0.008
+    },
+    {
+      "date": "2026/09/01",
+      "nav": 8.715,
+      "change": -0.005
+    }
   ],
   "yearly_nav_summary": [
-    { "year": "2024", "nav_range": "8.10 - 8.95 元", "dividend_note": "月配 NT$ 0.064 - 0.075 / 單位", "description": "雙重平衡動態調整，隨全球股債市場反彈獲取穩健收益，年化配息率約 9-10%" },
-    { "year": "2025", "nav_range": "8.40 - 9.10 元", "dividend_note": "月配 NT$ 0.065 - 0.078 / 單位", "description": "高股息股票與高收益債發揮底盤防禦，淨值持穩於高檔，月配息穩定維持 0.8%+" },
-    { "year": "2026 (至今)", "nav_range": "8.55 - 8.90 元", "dividend_note": "月配 NT$ 0.064 - 0.079 / 單位 (最新 0.072)", "description": "2026/08 配息 NT$ 0.072 (0.84%)，9月最新淨值約 8.6900 元，息收表現極為優異" }
+    {
+      "year": "2024",
+      "nav_range": "8.10 - 8.95 元",
+      "dividend_note": "月配 NT$ 0.064 - 0.075 / 單位",
+      "description": "雙重平衡動態調整，隨全球股債市場反彈獲取穩健收益，年化配息率約 9-10%"
+    },
+    {
+      "year": "2025",
+      "nav_range": "8.40 - 9.10 元",
+      "dividend_note": "月配 NT$ 0.065 - 0.078 / 單位",
+      "description": "高股息股票與高收益債發揮底盤防禦，淨值持穩於高檔，月配息穩定維持 0.8%+"
+    },
+    {
+      "year": "2026 (至今)",
+      "nav_range": "8.55 - 8.90 元",
+      "dividend_note": "月配 NT$ 0.064 - 0.079 / 單位 (最新 0.072)",
+      "description": "2026/08 配息 NT$ 0.072 (0.84%)，9月最新淨值約 8.6900 元，息收表現極為優異"
+    }
   ],
   "top_holdings": [
-    { "rank": 1, "name": "美國高股息龍頭股票組合 (US High Dividend Equity)", "type": "高股息股票", "country": "美國", "weight": "22.50%" },
-    { "rank": 2, "name": "全球高收益公司債券組合 (Global High Yield Bonds)", "type": "高收益債", "country": "全球", "weight": "35.00%" },
-    { "rank": 3, "name": "投資級企業債券組合 (US IG Corporate Bonds)", "type": "投資級公司債", "country": "美國", "weight": "15.00%" },
-    { "rank": 4, "name": "微軟 Microsoft Corp (MSFT)", "type": "科技高股息股", "country": "美國", "weight": "4.20%" },
-    { "rank": 5, "name": "博通 Broadcom Inc (AVGO)", "type": "網通高股息股", "country": "美國", "weight": "3.80%" },
-    { "rank": 6, "name": "蘋果 Apple Inc (AAPL)", "type": "消費科技股", "country": "美國", "weight": "3.20%" },
-    { "rank": 7, "name": "禮來 Eli Lilly & Co (LLY)", "type": "生技醫療股", "country": "美國", "weight": "2.80%" },
-    { "rank": 8, "name": "金融機構特別股與永續債", "type": "金融特別股", "country": "美國", "weight": "7.00%" },
-    { "rank": 9, "name": "台灣半導體與高股息供應鏈", "type": "台股高股息", "country": "台灣", "weight": "3.50%" },
-    { "rank": 10, "name": "歐洲優質公司債券", "type": "投資級債券", "country": "歐洲", "weight": "3.00%" }
+    {
+      "rank": 1,
+      "name": "美國高股息龍頭股票組合 (US High Dividend Equity)",
+      "type": "高股息股票",
+      "country": "美國",
+      "weight": "22.50%"
+    },
+    {
+      "rank": 2,
+      "name": "全球高收益公司債券組合 (Global High Yield Bonds)",
+      "type": "高收益債",
+      "country": "全球",
+      "weight": "35.00%"
+    },
+    {
+      "rank": 3,
+      "name": "投資級企業債券組合 (US IG Corporate Bonds)",
+      "type": "投資級公司債",
+      "country": "美國",
+      "weight": "15.00%"
+    },
+    {
+      "rank": 4,
+      "name": "微軟 Microsoft Corp (MSFT)",
+      "type": "科技高股息股",
+      "country": "美國",
+      "weight": "4.20%"
+    },
+    {
+      "rank": 5,
+      "name": "博通 Broadcom Inc (AVGO)",
+      "type": "網通高股息股",
+      "country": "美國",
+      "weight": "3.80%"
+    },
+    {
+      "rank": 6,
+      "name": "蘋果 Apple Inc (AAPL)",
+      "type": "消費科技股",
+      "country": "美國",
+      "weight": "3.20%"
+    },
+    {
+      "rank": 7,
+      "name": "禮來 Eli Lilly & Co (LLY)",
+      "type": "生技醫療股",
+      "country": "美國",
+      "weight": "2.80%"
+    },
+    {
+      "rank": 8,
+      "name": "金融機構特別股與永續債",
+      "type": "金融特別股",
+      "country": "美國",
+      "weight": "7.00%"
+    },
+    {
+      "rank": 9,
+      "name": "台灣半導體與高股息供應鏈",
+      "type": "台股高股息",
+      "country": "台灣",
+      "weight": "3.50%"
+    },
+    {
+      "rank": 10,
+      "name": "歐洲優質公司債券",
+      "type": "投資級債券",
+      "country": "歐洲",
+      "weight": "3.00%"
+    }
   ],
   "regions": [
-    { "region": "美洲地區 (United States)", "flag": "🇺🇸", "weight": "68.0%", "desc": "佈局美股高股息龍頭、高收益公司債與投資級債" },
-    { "region": "歐洲地區 (Europe)", "flag": "🇪🇺", "weight": "18.0%", "desc": "配置歐洲優質公司債與基礎建設息收標的" },
-    { "region": "亞太與台灣 (Asia & Taiwan)", "flag": "🇹🇼", "weight": "9.0%", "desc": "台灣半導體供應鏈高股息標的與亞洲優質債" },
-    { "region": "現金與貨幣市場預備", "flag": "💵", "weight": "5.0%", "desc": "動態風險調控與月配息資金準備" }
+    {
+      "region": "美洲地區 (United States)",
+      "flag": "🇺🇸",
+      "weight": "68.0%",
+      "desc": "佈局美股高股息龍頭、高收益公司債與投資級債"
+    },
+    {
+      "region": "歐洲地區 (Europe)",
+      "flag": "🇪🇺",
+      "weight": "18.0%",
+      "desc": "配置歐洲優質公司債與基礎建設息收標的"
+    },
+    {
+      "region": "亞太與台灣 (Asia & Taiwan)",
+      "flag": "🇹🇼",
+      "weight": "9.0%",
+      "desc": "台灣半導體供應鏈高股息標的與亞洲優質債"
+    },
+    {
+      "region": "現金與貨幣市場預備",
+      "flag": "💵",
+      "weight": "5.0%",
+      "desc": "動態風險調控與月配息資金準備"
+    }
   ],
   "asset_allocation": [
-    { "category": "收益型高收益公司債 (High Yield Bonds)", "icon": "fa-shield-halved", "weight": "35.0%", "desc": "提供穩健的核心息收，為基金打造防禦底盤" },
-    { "category": "高股息股票與ETF (High Dividend Equities)", "icon": "fa-chart-line", "weight": "35.0%", "desc": "追求資本成長兼具股息防禦，聚焦 AI、美股與台股龍頭" },
-    { "category": "投資級債與特別股 (IG Bonds & Preferreds)", "icon": "fa-building-columns", "weight": "22.0%", "desc": "提供信用安全屏障，降抵市場波動風險" },
-    { "category": "現金及流動資產 (Cash)", "icon": "fa-coins", "weight": "8.0%", "desc": "動態靈活調整部位與流動性準備" }
+    {
+      "category": "收益型高收益公司債 (High Yield Bonds)",
+      "icon": "fa-shield-halved",
+      "weight": "35.0%",
+      "desc": "提供穩健的核心息收，為基金打造防禦底盤"
+    },
+    {
+      "category": "高股息股票與ETF (High Dividend Equities)",
+      "icon": "fa-chart-line",
+      "weight": "35.0%",
+      "desc": "追求資本成長兼具股息防禦，聚焦 AI、美股與台股龍頭"
+    },
+    {
+      "category": "投資級債與特別股 (IG Bonds & Preferreds)",
+      "icon": "fa-building-columns",
+      "weight": "22.0%",
+      "desc": "提供信用安全屏障，降抵市場波動風險"
+    },
+    {
+      "category": "現金及流動資產 (Cash)",
+      "icon": "fa-coins",
+      "weight": "8.0%",
+      "desc": "動態靈活調整部位與流動性準備"
+    }
   ]
 }

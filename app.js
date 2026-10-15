@@ -5,111 +5,129 @@
 // Embed fallback data matching JSON files exactly to ensure offline / file:// preview works flawlessly
 const fallbackData = {
   accounts: {
-    client: "sun",
-    currency: "TWD",
-    accounts: [
-      {
-        account_id: "2318",
-        name: "帳戶1",
-        initial_amount: 2000000,
-        current_balance: 1897755,
-        total_deductions: 16630,
-        total_dividends: 29353,
-        valuation_date: "2026-09-24",
-        basic_sum_insured: 2800000,
-        life_death_benefit: 2770647,
-        start_date: "2026-05-22",
-        status: "active",
-        holdings: [
+      "client": "sun",
+      "currency": "TWD",
+      "accounts": [
           {
-            target_code: "BGTPB022",
-            target_name: "柏瑞多重資產特別收益基金-B類型 - (配現金)",
-            units: 234083.83887,
-            avg_price: 6.7806,
-            latest_price: 6.4407,
-            cost_amount: 1587229,
-            current_valuation: 1507664,
-            return_rate: -5.0128
+              "account_id": "2318",
+              "policy_number": "000038039672318",
+              "name": "帳戶1",
+              "initial_amount": 2000000,
+              "current_balance": 1859478,
+              "total_deductions": 20655,
+              "total_dividends": 43983,
+              "valuation_date": "2026-10-12",
+              "basic_sum_insured": 2800000,
+              "life_death_benefit": 2754320,
+              "start_date": "2026-05-22",
+              "status": "active",
+              "holdings": [
+                  {
+                      "target_code": "BGTPB022",
+                      "target_name": "柏瑞多重資產特別收益基金-B類型 - (配現金)",
+                      "units": 233463.892778,
+                      "avg_price": 6.7806,
+                      "avg_dividend_cost": 6.6199,
+                      "latest_price": 6.2791,
+                      "price_date": "2026-10-12",
+                      "cost_amount": 1583025,
+                      "current_valuation": 1465943,
+                      "return_rate": -7.3961,
+                      "dividend_return_rate": -5.1481
+                  },
+                  {
+                      "target_code": "TCTPL003",
+                      "target_name": "台灣股市50精選( 3 )",
+                      "units": 3044.95306,
+                      "avg_price": 62.5155,
+                      "avg_dividend_cost": 62.5155,
+                      "latest_price": 65.2795,
+                      "price_date": "2026-10-02",
+                      "cost_amount": 190357,
+                      "current_valuation": 198773,
+                      "return_rate": 4.4213,
+                      "dividend_return_rate": 4.4213
+                  },
+                  {
+                      "target_code": "BGTCB002",
+                      "target_name": "中國信託科技趨勢多重資產基金-臺幣B - (配現金)",
+                      "units": 15428.423964,
+                      "avg_price": 12.4001,
+                      "avg_dividend_cost": 12.2888,
+                      "latest_price": 12.6236,
+                      "price_date": "2026-10-12",
+                      "cost_amount": 191314,
+                      "current_valuation": 194762,
+                      "return_rate": 1.8024,
+                      "dividend_return_rate": 2.7244
+                  }
+              ]
           },
           {
-            target_code: "TCTPL003",
-            target_name: "台灣股市50精選( 3 )",
-            units: 3044.95306,
-            avg_price: 62.5155,
-            latest_price: 63.5192,
-            cost_amount: 190357,
-            current_valuation: 193413,
-            return_rate: 1.6055
+              "account_id": "9318",
+              "policy_number": "000038258569318",
+              "name": "帳戶2",
+              "initial_amount": 1000000,
+              "current_balance": 940120,
+              "total_deductions": 6424,
+              "total_dividends": 7486,
+              "valuation_date": "2026-10-12",
+              "basic_sum_insured": 1400000,
+              "life_death_benefit": 1392514,
+              "start_date": "2026-06-30",
+              "status": "active",
+              "holdings": [
+                  {
+                      "target_code": "BGTPB022",
+                      "target_name": "柏瑞多重資產特別收益基金-B類型 - (配現金)",
+                      "units": 149722.047117,
+                      "avg_price": 6.6399,
+                      "avg_dividend_cost": 6.5899,
+                      "latest_price": 6.2791,
+                      "price_date": "2026-10-12",
+                      "cost_amount": 994139,
+                      "current_valuation": 940120,
+                      "return_rate": -5.4338,
+                      "dividend_return_rate": -4.7163
+                  }
+              ]
           },
           {
-            target_code: "BGTCB002",
-            target_name: "中國信託科技趨勢多重資產基金-臺幣B - (配現金)",
-            units: 15428.423964,
-            avg_price: 12.4001,
-            latest_price: 12.7478,
-            cost_amount: 191314,
-            current_valuation: 196678,
-            return_rate: 2.8040
+              "account_id": "6318",
+              "policy_number": "000038480696318",
+              "name": "帳戶3",
+              "initial_amount": 500000,
+              "current_balance": 488874,
+              "total_deductions": 2240,
+              "total_dividends": 2900,
+              "valuation_date": "2026-10-13",
+              "basic_sum_insured": 700000,
+              "life_death_benefit": 697100,
+              "start_date": "2026-08-10",
+              "status": "active",
+              "holdings": [
+                  {
+                      "target_code": "BGTPI025",
+                      "target_name": "東方匯理實質收息多重資產證券投資信託基金-AD 月配型(新臺幣) - (配現金)",
+                      "units": 50347.440667,
+                      "avg_price": 9.89,
+                      "avg_dividend_cost": 9.8317,
+                      "latest_price": 9.71,
+                      "price_date": "2026-10-13",
+                      "cost_amount": 497936,
+                      "current_valuation": 488874,
+                      "return_rate": -1.82,
+                      "dividend_return_rate": -1.2378
+                  }
+              ]
           }
-        ]
-      },
-      {
-        account_id: "9318",
-        name: "帳戶2",
-        initial_amount: 1000000,
-        current_balance: 970554,
-        total_deductions: 4291,
-        total_dividends: 0,
-        valuation_date: "2026-09-23",
-        basic_sum_insured: 1400000,
-        life_death_benefit: 1400000,
-        start_date: "2026-06-30",
-        status: "active",
-        holdings: [
-          {
-            target_code: "BGTPB022",
-            target_name: "柏瑞多重資產特別收益基金-B類型 - (配現金)",
-            units: 150690.823657,
-            avg_price: 6.6399,
-            latest_price: 6.4407,
-            cost_amount: 1000572,
-            current_valuation: 970554,
-            return_rate: -3.0000
-          }
-        ]
-      },
-      {
-        account_id: "6318",
-        name: "帳戶3",
-        initial_amount: 500000,
-        current_balance: 484846,
-        total_deductions: 2240,
-        total_dividends: 2900,
-        valuation_date: "2026-09-24",
-        basic_sum_insured: 700000,
-        life_death_benefit: 697100,
-        start_date: "2026-08-10",
-        status: "active",
-        holdings: [
-          {
-            target_code: "BGTPI025",
-            target_name: "東方匯理實質收息多重資產證券投資信託基金-AD 月配型(新臺幣) - (配現金)",
-            units: 50347.440667,
-            avg_price: 9.8900,
-            latest_price: 9.6300,
-            cost_amount: 497936,
-            current_valuation: 484846,
-            return_rate: -2.6289
-          }
-        ]
-      }
-    ],
-    total_initial_amount: 3500000,
-    total_current_valuation: 3353155,
-    total_deductions: 23161,
-    total_dividends: 32253,
-    total_life_death_benefit: 4867747,
-    last_updated: "2026-10-01T09:18:00+08:00"
+      ],
+      "total_initial_amount": 3500000,
+      "total_current_valuation": 3288472,
+      "total_deductions": 29319,
+      "total_dividends": 54369,
+      "total_life_death_benefit": 4843934,
+      "last_updated": "2026-10-15T17:35:00+08:00"
   },
   transactions: [
     { id: "DIV-6318-20260915-01", date: "2026-09-15", account_id: "6318", type: "配息", target_name: "BGTPI025東方匯理實質收息多重資產-AD", units: "50,347.44", price: "0.0576", total_amount: 2900 },
