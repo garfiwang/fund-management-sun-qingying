@@ -13,10 +13,10 @@ const fallbackData = {
               "policy_number": "000038039672318",
               "name": "帳戶1",
               "initial_amount": 2000000,
-              "current_balance": 1859478,
+              "current_balance": 1862266,
               "total_deductions": 20655,
-              "total_dividends": 43983,
-              "valuation_date": "2026-10-12",
+              "total_dividends": 57353,
+              "valuation_date": "2026-10-15",
               "basic_sum_insured": 2800000,
               "life_death_benefit": 2754320,
               "start_date": "2026-05-22",
@@ -27,13 +27,13 @@ const fallbackData = {
                       "target_name": "柏瑞多重資產特別收益基金-B類型 - (配現金)",
                       "units": 233463.892778,
                       "avg_price": 6.7806,
-                      "avg_dividend_cost": 6.6199,
-                      "latest_price": 6.2791,
-                      "price_date": "2026-10-12",
+                      "avg_dividend_cost": 6.5694,
+                      "latest_price": 6.3455,
+                      "price_date": "2026-10-15",
                       "cost_amount": 1583025,
-                      "current_valuation": 1465943,
-                      "return_rate": -7.3961,
-                      "dividend_return_rate": -5.1481
+                      "current_valuation": 1481445,
+                      "return_rate": -6.4168,
+                      "dividend_return_rate": -3.4082
                   },
                   {
                       "target_code": "TCTPL003",
@@ -41,12 +41,12 @@ const fallbackData = {
                       "units": 3044.95306,
                       "avg_price": 62.5155,
                       "avg_dividend_cost": 62.5155,
-                      "latest_price": 65.2795,
-                      "price_date": "2026-10-02",
+                      "latest_price": 63.0442,
+                      "price_date": "2026-10-16",
                       "cost_amount": 190357,
-                      "current_valuation": 198773,
-                      "return_rate": 4.4213,
-                      "dividend_return_rate": 4.4213
+                      "current_valuation": 191967,
+                      "return_rate": 0.8456,
+                      "dividend_return_rate": 0.8456
                   },
                   {
                       "target_code": "BGTCB002",
@@ -54,12 +54,12 @@ const fallbackData = {
                       "units": 15428.423964,
                       "avg_price": 12.4001,
                       "avg_dividend_cost": 12.2888,
-                      "latest_price": 12.6236,
-                      "price_date": "2026-10-12",
+                      "latest_price": 12.2407,
+                      "price_date": "2026-10-15",
                       "cost_amount": 191314,
-                      "current_valuation": 194762,
-                      "return_rate": 1.8024,
-                      "dividend_return_rate": 2.7244
+                      "current_valuation": 188855,
+                      "return_rate": -1.2855,
+                      "dividend_return_rate": -0.3914
                   }
               ]
           },
@@ -123,11 +123,11 @@ const fallbackData = {
           }
       ],
       "total_initial_amount": 3500000,
-      "total_current_valuation": 3294754,
+      "total_current_valuation": 3297542,
       "total_deductions": 32466,
-      "total_dividends": 61839,
+      "total_dividends": 75209,
       "total_life_death_benefit": 4843934,
-      "last_updated": "2026-10-19T22:30:00+08:00"
+      "last_updated": "2026-10-19T22:45:00+08:00"
   },
   transactions: [
     { id: "FEE-6318-20261013-01", date: "2026-10-13", account_id: "6318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
@@ -136,8 +136,13 @@ const fallbackData = {
     { id: "FEE-9318-20261001-01", date: "2026-10-01", account_id: "9318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
     { id: "FEE-9318-20261001-02", date: "2026-10-01", account_id: "9318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 1901 },
     { id: "FEE-9318-20261001-03", date: "2026-10-01", account_id: "9318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 52 },
+    { id: "DIV-2318-20260930-01", date: "2026-09-30", account_id: "2318", type: "配息", target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)", units: "233,463.89", price: "0.05", total_amount: 11673 },
     { id: "DIV-9318-20260930-01", date: "2026-09-30", account_id: "9318", type: "配息", target_name: "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)", units: "149,398.61", price: "0.05", total_amount: 7470 },
+    { id: "FEE-2318-20260923-01", date: "2026-09-23", account_id: "2318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
+    { id: "FEE-2318-20260923-02", date: "2026-09-23", account_id: "2318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 3825 },
+    { id: "FEE-2318-20260923-03", date: "2026-09-23", account_id: "2318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 100 },
     { id: "DIV-6318-20260915-01", date: "2026-09-15", account_id: "6318", type: "配息", target_name: "BGTPI025東方匯理實質收息多重資產-AD", units: "50,347.44", price: "0.0576", total_amount: 2900 },
+    { id: "DIV-2318-20260914-01", date: "2026-09-14", account_id: "2318", type: "配息", target_name: "BGTCB002中信科技趨勢多重資產-臺幣B - (配現金)", units: "15,428.42", price: "0.11", total_amount: 1697 },
     { id: "FEE-6318-20260911-01", date: "2026-09-11", account_id: "6318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
     { id: "FEE-6318-20260911-02", date: "2026-09-11", account_id: "6318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 992 },
     { id: "FEE-6318-20260911-03", date: "2026-09-11", account_id: "6318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 24 },

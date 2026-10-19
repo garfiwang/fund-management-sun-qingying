@@ -62,6 +62,22 @@
       "amount": 52
     },
     {
+      "id": "DIV-2318-20260930-01",
+      "date": "2026-09-30",
+      "record_date": "2026-09-30",
+      "payout_date": "2026-10-14",
+      "account_id": "2318",
+      "target_name": "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)",
+      "full_target_name": "BGTPB022柏瑞多重資產特別收益基金-B類型 - (配現金)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "type": "配息",
+      "payment_method": "銀行轉帳",
+      "target_units": 233463.892778,
+      "dividend_per_unit": 0.05,
+      "currency": "TWD",
+      "exchange_rate": 1,
+      "total_amount": 11673
+    },
+    {
       "id": "DIV-9318-20260930-01",
       "date": "2026-09-30",
       "record_date": "2026-09-30",
@@ -122,6 +138,22 @@
       "currency": "TWD",
       "exchange_rate": 1,
       "total_amount": 2900
+    },
+    {
+      "id": "DIV-2318-20260914-01",
+      "date": "2026-09-14",
+      "record_date": "2026-09-14",
+      "payout_date": "2026-09-22",
+      "account_id": "2318",
+      "target_name": "BGTCB002中國信託科技趨勢多重資產基金-臺幣B - (配現金)",
+      "full_target_name": "BGTCB002中國信託科技趨勢多重資產基金-臺幣B - (配現金)(本基金有相當比重投資於非投資等級之高風險債券且本基金之配息來源可能為本金)",
+      "type": "配息",
+      "payment_method": "銀行轉帳",
+      "target_units": 15428.423964,
+      "dividend_per_unit": 0.11,
+      "currency": "TWD",
+      "exchange_rate": 1,
+      "total_amount": 1697
     },
     {
       "id": "FEE-6318-20260911-01",
