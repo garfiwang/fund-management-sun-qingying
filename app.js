@@ -97,10 +97,10 @@ const fallbackData = {
               "policy_number": "000038480696318",
               "name": "帳戶3",
               "initial_amount": 500000,
-              "current_balance": 488874,
-              "total_deductions": 2240,
+              "current_balance": 487267,
+              "total_deductions": 3334,
               "total_dividends": 2900,
-              "valuation_date": "2026-10-13",
+              "valuation_date": "2026-10-15",
               "basic_sum_insured": 700000,
               "life_death_benefit": 697100,
               "start_date": "2026-08-10",
@@ -109,27 +109,30 @@ const fallbackData = {
                   {
                       "target_code": "BGTPI025",
                       "target_name": "東方匯理實質收息多重資產證券投資信託基金-AD 月配型(新臺幣) - (配現金)",
-                      "units": 50347.440667,
+                      "units": 50233.719253,
                       "avg_price": 9.89,
                       "avg_dividend_cost": 9.8317,
-                      "latest_price": 9.71,
-                      "price_date": "2026-10-13",
-                      "cost_amount": 497936,
-                      "current_valuation": 488874,
-                      "return_rate": -1.82,
-                      "dividend_return_rate": -1.2378
+                      "latest_price": 9.7,
+                      "price_date": "2026-10-15",
+                      "cost_amount": 496811,
+                      "current_valuation": 487267,
+                      "return_rate": -1.9211,
+                      "dividend_return_rate": -1.3395
                   }
               ]
           }
       ],
       "total_initial_amount": 3500000,
-      "total_current_valuation": 3288472,
-      "total_deductions": 29319,
+      "total_current_valuation": 3286865,
+      "total_deductions": 30413,
       "total_dividends": 54369,
       "total_life_death_benefit": 4843934,
-      "last_updated": "2026-10-15T17:35:00+08:00"
+      "last_updated": "2026-10-19T22:25:00+08:00"
   },
   transactions: [
+    { id: "FEE-6318-20261013-01", date: "2026-10-13", account_id: "6318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
+    { id: "FEE-6318-20261013-02", date: "2026-10-13", account_id: "6318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 969 },
+    { id: "FEE-6318-20261013-03", date: "2026-10-13", account_id: "6318", type: "扣款", target_name: "保險成本", units: "-", price: "-", total_amount: 25 },
     { id: "DIV-6318-20260915-01", date: "2026-09-15", account_id: "6318", type: "配息", target_name: "BGTPI025東方匯理實質收息多重資產-AD", units: "50,347.44", price: "0.0576", total_amount: 2900 },
     { id: "FEE-6318-20260911-01", date: "2026-09-11", account_id: "6318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
     { id: "FEE-6318-20260911-02", date: "2026-09-11", account_id: "6318", type: "扣款", target_name: "標的維護費/帳戶管理費", units: "-", price: "-", total_amount: 992 },
