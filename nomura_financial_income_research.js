@@ -27,8 +27,8 @@ async function loadFundDetails() {
 
 function renderQuickMetrics() {
   if (!fundData) return;
-  const latestNav = fundData.latest_nav || 10.5120;
-  const subPrice = fundData.subscription_price || 10.5000;
+  const latestNav = fundData.latest_nav || 6.9128;
+  const subPrice = fundData.subscription_price || 7.1000;
   const diff = latestNav - subPrice;
   const diffPct = ((diff / subPrice) * 100).toFixed(2);
 
@@ -56,7 +56,7 @@ function render30DayChartAndTable() {
   const nav30Data = fundData.nav_30_days || [];
   const labels = nav30Data.map(item => item.date.substring(5)).reverse();
   const navValues = nav30Data.map(item => item.nav).reverse();
-  const subPrice = fundData.subscription_price || 10.5000;
+  const subPrice = fundData.subscription_price || 7.1000;
   const subPriceLine = labels.map(() => subPrice);
 
   // Render Line Chart
