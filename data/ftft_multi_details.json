@@ -20,12 +20,21 @@
   "max_sales_fee": "3.0000%",
   "dividend_frequency": "月配",
   "latest_dividend_per_unit": 0.072,
-  "latest_dividend_yield": "0.84%",
-  "latest_nav": 8.7,
-  "latest_nav_date": "2026-10-13",
+  "latest_dividend_yield": "0.85%",
+  "latest_nav": 8.46,
+  "latest_nav_date": "2026-10-16",
   "subscription_price": 8.75,
   "subscription_date": "2026-06-29",
   "dividend_history_2026": [
+    {
+      "record_date": "2026/09/30",
+      "ex_date": "2026/10/01",
+      "pay_date": "2026/10/14",
+      "status": "配息",
+      "amount": 0.072,
+      "yield_rate": "0.83%",
+      "currency": "台幣"
+    },
     {
       "record_date": "2026/08/31",
       "ex_date": "2026/09/01",
@@ -91,6 +100,11 @@
     }
   ],
   "nav_30_days": [
+    {
+      "date": "2026/10/16",
+      "nav": 8.46,
+      "change": -0.24
+    },
     {
       "date": "2026/10/13",
       "nav": 8.7,
