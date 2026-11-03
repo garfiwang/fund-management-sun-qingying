@@ -13,10 +13,10 @@ const fallbackData = {
               "policy_number": "000038039672318",
               "name": "帳戶1",
               "initial_amount": 2000000,
-              "current_balance": 1864743,
+              "current_balance": 1853322,
               "total_deductions": 20655,
               "total_dividends": 57353,
-              "valuation_date": "2026-10-21",
+              "valuation_date": "2026-10-30",
               "basic_sum_insured": 2800000,
               "life_death_benefit": 2754320,
               "start_date": "2026-05-22",
@@ -28,12 +28,12 @@ const fallbackData = {
                       "units": 233463.892778,
                       "avg_price": 6.7806,
                       "avg_dividend_cost": 6.5694,
-                      "latest_price": 6.3588,
-                      "price_date": "2026-10-21",
+                      "latest_price": 6.3718,
+                      "price_date": "2026-10-29",
                       "cost_amount": 1583025,
-                      "current_valuation": 1484550,
-                      "return_rate": -6.2207,
-                      "dividend_return_rate": -3.2058
+                      "current_valuation": 1487585,
+                      "return_rate": -6.0289,
+                      "dividend_return_rate": -3.0079
                   },
                   {
                       "target_code": "TCTPL003",
@@ -41,12 +41,12 @@ const fallbackData = {
                       "units": 3044.95306,
                       "avg_price": 62.5155,
                       "avg_dividend_cost": 62.5155,
-                      "latest_price": 62.8410,
-                      "price_date": "2026-10-21",
+                      "latest_price": 60.7632,
+                      "price_date": "2026-10-30",
                       "cost_amount": 190357,
-                      "current_valuation": 191348,
-                      "return_rate": 0.5207,
-                      "dividend_return_rate": 0.5207
+                      "current_valuation": 185021,
+                      "return_rate": -2.8030,
+                      "dividend_return_rate": -2.8030
                   },
                   {
                       "target_code": "BGTCB002",
@@ -54,12 +54,12 @@ const fallbackData = {
                       "units": 15428.423964,
                       "avg_price": 12.4001,
                       "avg_dividend_cost": 12.2888,
-                      "latest_price": 12.2401,
-                      "price_date": "2026-10-21",
+                      "latest_price": 11.7132,
+                      "price_date": "2026-10-30",
                       "cost_amount": 191314,
-                      "current_valuation": 188845,
-                      "return_rate": -1.2903,
-                      "dividend_return_rate": -0.3963
+                      "current_valuation": 180716,
+                      "return_rate": -5.5395,
+                      "dividend_return_rate": -4.6839
                   }
               ]
           },
@@ -68,10 +68,10 @@ const fallbackData = {
               "policy_number": "000038258569318",
               "name": "帳戶2",
               "initial_amount": 1000000,
-              "current_balance": 949996,
+              "current_balance": 951938,
               "total_deductions": 8477,
               "total_dividends": 14956,
-              "valuation_date": "2026-10-21",
+              "valuation_date": "2026-10-30",
               "basic_sum_insured": 1400000,
               "life_death_benefit": 1392514,
               "start_date": "2026-06-30",
@@ -83,12 +83,12 @@ const fallbackData = {
                       "units": 149398.612694,
                       "avg_price": 6.6399,
                       "avg_dividend_cost": 6.5386,
-                      "latest_price": 6.3588,
-                      "price_date": "2026-10-21",
+                      "latest_price": 6.3718,
+                      "price_date": "2026-10-29",
                       "cost_amount": 991992,
-                      "current_valuation": 949996,
-                      "return_rate": -4.2335,
-                      "dividend_return_rate": -2.7498
+                      "current_valuation": 951938,
+                      "return_rate": -4.0377,
+                      "dividend_return_rate": -2.5510
                   }
               ]
           },
@@ -100,7 +100,7 @@ const fallbackData = {
               "current_balance": 488272,
               "total_deductions": 3334,
               "total_dividends": 2900,
-              "valuation_date": "2026-10-21",
+              "valuation_date": "2026-10-30",
               "basic_sum_insured": 700000,
               "life_death_benefit": 697100,
               "start_date": "2026-08-10",
@@ -113,7 +113,7 @@ const fallbackData = {
                       "avg_price": 9.89,
                       "avg_dividend_cost": 9.8317,
                       "latest_price": 9.72,
-                      "price_date": "2026-10-21",
+                      "price_date": "2026-10-30",
                       "cost_amount": 496811,
                       "current_valuation": 488272,
                       "return_rate": -1.7189,
@@ -123,11 +123,11 @@ const fallbackData = {
           }
       ],
       "total_initial_amount": 3500000,
-      "total_current_valuation": 3303011,
+      "total_current_valuation": 3293532,
       "total_deductions": 32466,
       "total_dividends": 75209,
       "total_life_death_benefit": 4843934,
-      "last_updated": "2026-10-26T08:55:00+08:00"
+      "last_updated": "2026-11-03T09:15:00+08:00"
   },
   transactions: [
     { id: "FEE-6318-20261013-01", date: "2026-10-13", account_id: "6318", type: "扣款", target_name: "保單管理費/行政管理費", units: "-", price: "-", total_amount: 100 },
