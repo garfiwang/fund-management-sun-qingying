@@ -51,7 +51,7 @@
 - ⚖️ 富蘭克林華美多重資產研究頁：`https://garfiwang.github.io/fund-management-sun-qingying/ftft_multi_asset_research.html`
 
 ## 🕐 最後更新
-- 時間：2026-11-03 09:33
+- 時間：2026-11-03 09:34
 - 更新者：Antigravity @ M3-Air---garfiwang-3.local
 - 最新進度：更新全數精選 8 檔基金最新淨值（2026/10/29~30）與三大帳戶估值，帳戶 2 柏瑞特別收益回升至 6.3718，距轉換觸發點 6.4407 僅差 +1.08%。
-- Git push：待推（即將同步至 `main` 與 `gh-pages`）
+- Git push：✅ 已推（`efa9e60`，已同步至 `main` 與 `gh-pages`）
