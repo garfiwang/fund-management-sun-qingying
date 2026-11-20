@@ -55,4 +55,4 @@
 - 時間：2026-11-20 12:46
 - 更新者：Antigravity @ M3-Air---garfiwang-3.local
 - 最新進度：確立本專案專屬開工 SOP（說「開工」直接先做最新官方淨值更新與損益動態刷新），並寫入專案藍圖、交接規則與 Obsidian 筆記（完成正式收工存檔）。
-- Git push：待推（L2 完成後回填）
+- Git push：✅ 已推（`main` & `gh-pages` 分支已同步至最新 commit `0bb794b`）
