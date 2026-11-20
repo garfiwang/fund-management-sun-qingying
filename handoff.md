@@ -45,13 +45,14 @@
 3. **監控帳戶 1 中信科技淨值**：反彈至 12.10~12.20 元即刻啟動換入富蘭克林華美 (RR3)；若跌破 11.30 元執行硬停損。
 
 ## ⚠️ 注意事項
+- **🚨【本專案專屬開工 SOP（僅限本專案生效）】**：當使用者說「開工」時，除常規開工檢查外，**一律直接先執行「更新最新官方淨值」**：主動檢查專案目錄與對話輸入是否有最新交易日之公告淨值截圖或資料，進行動態刷新與損益計算，並在開工報告中直接呈現最新估值與門檻差距（不可擴及其他專案）。
 - 本專案位於 Google 雲端硬碟，請確保 Google 雲端硬碟桌面版同步完成。
 - GitHub Pages 主儀錶板：`https://garfiwang.github.io/fund-management-sun-qingying/`
 - 📊 精選 8 檔基金中心：`https://garfiwang.github.io/fund-management-sun-qingying/featured_funds.html`
 - ⚖️ 富蘭克林華美多重資產研究頁：`https://garfiwang.github.io/fund-management-sun-qingying/ftft_multi_asset_research.html`
 
 ## 🕐 最後更新
-- 時間：2026-11-13 10:15
+- 時間：2026-11-20 12:45
 - 更新者：Antigravity @ M3-Air---garfiwang-3.local
-- 最新進度：依 2026/11/12 官方最新對帳單截圖完成三大帳戶估值與最新基金淨值全面同步（柏瑞回升至 6.4210 距轉換僅差 0.0197 元、東方匯理 9.7800 含息翻紅達 +0.06%）。
-- Git push：✅ 已推（`main` & `gh-pages` 分支已同步至最新 commit `4227d71`）
+- 最新進度：確立本專案專屬開工 SOP（說「開工」直接先做最新官方淨值更新與損益動態刷新），並寫入專案藍圖與交接規則。
+- Git push：待推（L2 完成後回填）
